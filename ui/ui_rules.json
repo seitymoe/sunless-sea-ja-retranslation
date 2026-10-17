@@ -1,0 +1,4236 @@
+{
+  "entries": [
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Event",
+      "method": "ApplyOtherEffects",
+      "english": "You have an opportunity to change your face! Use it from the Me page.",
+      "japanese": "容姿を変更できるようになりました。「自分」の画面から変更できます。",
+      "category": "Event"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Event",
+      "method": "ApplyOtherEffects",
+      "english": "Your inventory has grown!",
+      "japanese": "所持品が増えました！",
+      "category": "Event"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ExtensionMethods.EnumExtensionMethods.CategoryExtensionMethods",
+      "method": "DisplayName",
+      "english": "Performance",
+      "japanese": "能力",
+      "category": "CategoryExtensionMethods"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ExtensionMethods.EnumExtensionMethods.CategoryExtensionMethods",
+      "method": "DisplayName",
+      "english": "Personal",
+      "japanese": "人物",
+      "category": "CategoryExtensionMethods"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ExtensionMethods.EnumExtensionMethods.CategoryExtensionMethods",
+      "method": "DisplayName",
+      "english": "Triangulation",
+      "japanese": "三角測量",
+      "category": "CategoryExtensionMethods"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ExtensionMethods.EnumExtensionMethods.CategoryExtensionMethods",
+      "method": "DisplayNameSunless",
+      "english": "Accomplishments",
+      "japanese": "実績",
+      "category": "CategoryExtensionMethods"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ExtensionMethods.EnumExtensionMethods.CategoryExtensionMethods",
+      "method": "DisplayNameSunless",
+      "english": "Cargo",
+      "japanese": "積荷",
+      "category": "CategoryExtensionMethods"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ExtensionMethods.EnumExtensionMethods.CategoryExtensionMethods",
+      "method": "DisplayNameSunless",
+      "english": "Circumstances",
+      "japanese": "状況",
+      "category": "CategoryExtensionMethods"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ExtensionMethods.EnumExtensionMethods.CategoryExtensionMethods",
+      "method": "DisplayNameSunless",
+      "english": "Curiosities",
+      "japanese": "珍品",
+      "category": "CategoryExtensionMethods"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ExtensionMethods.EnumExtensionMethods.CategoryExtensionMethods",
+      "method": "DisplayNameSunless",
+      "english": "Stories",
+      "japanese": "物語",
+      "category": "CategoryExtensionMethods"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ExtensionMethods.EnumExtensionMethods.GenreExtensionMethods",
+      "method": "DisplayText",
+      "english": "Not Yet Specified",
+      "japanese": "未指定",
+      "category": "GenreExtensionMethods"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ExtensionMethods.EnumExtensionMethods.GenreExtensionMethods",
+      "method": "DisplayText",
+      "english": "Post-Apocalyptic",
+      "japanese": "終末後の世界",
+      "category": "GenreExtensionMethods"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ExtensionMethods.EnumExtensionMethods.GenreExtensionMethods",
+      "method": "DisplayText",
+      "english": "Science Fiction",
+      "japanese": "SF",
+      "category": "GenreExtensionMethods"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ExtensionMethods.EnumExtensionMethods.GenreExtensionMethods",
+      "method": "DisplayText",
+      "english": "You Can't Label Me",
+      "japanese": "分類不能",
+      "category": "GenreExtensionMethods"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.FeedMessage",
+      "method": "Ago",
+      "english": " day ago",
+      "japanese": "日前",
+      "category": "FeedMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.FeedMessage",
+      "method": "Ago",
+      "english": " days ago",
+      "japanese": "日前",
+      "category": "FeedMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.FeedMessage",
+      "method": "Ago",
+      "english": " hour ago",
+      "japanese": "時間前",
+      "category": "FeedMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.FeedMessage",
+      "method": "Ago",
+      "english": " hours ago",
+      "japanese": "時間前",
+      "category": "FeedMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.FeedMessage",
+      "method": "Ago",
+      "english": " minute ago",
+      "japanese": "分前",
+      "category": "FeedMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.FeedMessage",
+      "method": "Ago",
+      "english": " minutes ago",
+      "japanese": "分前",
+      "category": "FeedMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.FeedMessage",
+      "method": "Ago",
+      "english": " second ago",
+      "japanese": "秒前",
+      "category": "FeedMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.FeedMessage",
+      "method": "Ago",
+      "english": " seconds ago",
+      "japanese": "秒前",
+      "category": "FeedMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.FeedMessage",
+      "method": "Ago",
+      "english": "just now",
+      "japanese": "たった今",
+      "category": "FeedMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Help.ChallengeHelpTooltip",
+      "method": ".ctor",
+      "english": "The higher the Quality, the higher the chance of success.",
+      "japanese": "対応する能力値が高いほど、判定に成功しやすくなります。",
+      "category": "ChallengeHelp"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.QAssoc.BaseClasses.BaseQEffect",
+      "method": "PossessorSatisfiesIfNoMoreThan",
+      "english": " hasn't changed, because it's higher than ",
+      "japanese": "は変化しませんでした。すでに上限より高いためです：",
+      "category": "BaseQEffect"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.QAssoc.BaseClasses.BaseQEffect",
+      "method": "PossessorSatisfiesOnlyIfAtLeast",
+      "english": " hasn't changed, because it's lower than ",
+      "japanese": "は変化しませんでした。すでに下限より低いためです：",
+      "category": "BaseQEffect"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.ActionsRefreshedMessage",
+      "method": ".ctor",
+      "english": "Your actions have been refreshed!",
+      "japanese": "行動回数が回復しました！",
+      "category": "ActionsRefreshedMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackFailureMessage",
+      "method": ".ctor",
+      "english": " failed.",
+      "japanese": "失敗しました。",
+      "category": "AttackFailureMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackFailureMessage",
+      "method": ".ctor",
+      "english": "Better luck another time. Have you tried using the Hunt option?",
+      "japanese": "次はうまくいくでしょう。「狩る」を試しましたか？",
+      "category": "AttackFailureMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackFailureMessage",
+      "method": ".ctor",
+      "english": "Lamentably, your attack on ",
+      "japanese": "残念ながら、あなたの攻撃は",
+      "category": "AttackFailureMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": " evaded your knife. So you shot ",
+      "japanese": "は短剣をかわしました。そこで銃で撃ち抜いたのは",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": " handily.",
+      "japanese": "。鮮やかな勝利です。",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": " scurried like a rat! But you were everywhere! You have defeated ",
+      "japanese": "は鼠のように逃げ回りましたが、追い詰めて打ち負かしました：",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": " spotted you at the last second, but too late!",
+      "japanese": "は最後の瞬間にあなたに気づきました。だが、もう遅すぎました！",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": " succeeded. There are some distressing screams, but only briefly.",
+      "japanese": "成功しました。耳を塞ぎたくなる悲鳴が上がりましたが、すぐに静かになりました。",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": " tripped and fell on your knife. Silly thing.",
+      "japanese": "は足を滑らせ、あなたの刃に突っ込みました。なんとも間抜けな。",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": " with style and distinction. Well done.",
+      "japanese": "。見事な手際でした！",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": "! And the peanut gallery can stop complaining. Strictly speaking, it's within the rules.",
+      "japanese": "！ 野次馬に文句を言う筋合いはありません。厳密には規則違反ではないのですから。",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": "! Your attack was inescapable!",
+      "japanese": "！ 避けようのない一撃でした！",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": "'s expense",
+      "japanese": "を犠牲にして",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": ", who knew no better than to tangle with you.",
+      "japanese": "。あなたに挑んだのが運の尽きでした。",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": ". Well done.",
+      "japanese": "。お見事！",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": "Let us drink a toast to the memory of ",
+      "japanese": "思い出に杯を捧げましょう：",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": "Murder most foul. If also most elegant. At ",
+      "japanese": "なんとも非道な殺しです。しかも実に優雅。犠牲となったのは",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": "There was no hiding place for ",
+      "japanese": "隠れ場所がなかった相手：",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": "You are cunning, and ferocious. Well done.",
+      "japanese": "狡猾で獰猛な一撃でした。お見事！",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": "You have murdered ",
+      "japanese": "あなたは仕留めました：",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": "You stepped from the shadows and did something appalling to ",
+      "japanese": "影から姿を現し、恐ろしい一撃を見舞った相手は",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.AttackSuccessMessage",
+      "method": ".ctor",
+      "english": "Your attack on ",
+      "japanese": "あなたの攻撃は",
+      "category": "AttackSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.CantAttackMessage",
+      "method": ".ctor",
+      "english": "You can't attack this target because ",
+      "japanese": "この対象は攻撃できません。理由：",
+      "category": "CantAttackMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.CoreResultInfo",
+      "method": "GetCombatMessages",
+      "english": " and ",
+      "japanese": "と",
+      "category": "CoreResultInfo"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.DifficultyRollFailureMessage",
+      "method": ".ctor",
+      "english": " failed in a challenge! ",
+      "japanese": " の判定に失敗しました！ ",
+      "category": "DifficultyRollFailureMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.DifficultyRollFailureMessage",
+      "method": ".ctor",
+      "english": " failed in a challenge! Try again and you may have better luck...",
+      "japanese": " の判定に失敗しました。再挑戦すれば成功するかもしれません……",
+      "category": "DifficultyRollFailureMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.DifficultyRollFailureMessage",
+      "method": ".ctor",
+      "english": "(This challenge was old territory for you - you won't learn so much.) ",
+      "japanese": "（慣れた判定なので、得られる経験は少なくなります。） ",
+      "category": "DifficultyRollFailureMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.DifficultyRollFailureMessage",
+      "method": ".ctor",
+      "english": "(This was a second chance, so you'd already learnt from it.)",
+      "japanese": "（再挑戦なので、経験はすでに得ています。）",
+      "category": "DifficultyRollFailureMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.DifficultyRollFailureMessage",
+      "method": ".ctor",
+      "english": "(When you try a challenge that's difficult for you, you learn more even when you fail) ",
+      "japanese": "（難しい判定では、失敗しても多くの経験を得られます。） ",
+      "category": "DifficultyRollFailureMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.DifficultyRollFailureMessage",
+      "method": ".ctor",
+      "english": "You were unlucky. Better luck next time...",
+      "japanese": "今回は運がありませんでした。次こそ成功するはずです……",
+      "category": "ChallengeResult"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.DifficultyRollSuccessMessage",
+      "method": ".ctor",
+      "english": "(But this was a second chance, so you'd already learnt from it.)",
+      "japanese": "（再挑戦のため、経験はすでに得ています。）",
+      "category": "DifficultyRollSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.DifficultyRollSuccessMessage",
+      "method": ".ctor",
+      "english": "(Risky challenges mean you learn more.)",
+      "japanese": "（難しい判定ほど、多くの経験を得られます。）",
+      "category": "DifficultyRollSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.DifficultyRollSuccessMessage",
+      "method": ".ctor",
+      "english": "(Simple challenges mean you don't learn so much.)",
+      "japanese": "（簡単な判定では、得られる経験は少なくなります。）",
+      "category": "DifficultyRollSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.DifficultyRollSuccessMessage",
+      "method": ".ctor",
+      "english": "You succeeded in a {0} challenge! {1} {2}",
+      "japanese": "「{0}」の判定に成功しました！ {1} {2}",
+      "category": "DifficultyRollSuccessMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.DifficultyRollSuccessMessage",
+      "method": ".ctor",
+      "english": "You were fortunate!",
+      "japanese": "幸運に恵まれました！",
+      "category": "ChallengeResult"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.FatePointChangeMessage",
+      "method": ".ctor",
+      "english": " Fate! ",
+      "japanese": "運命点！ ",
+      "category": "FatePointChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.FatePointChangeMessage",
+      "method": ".ctor",
+      "english": "Fate can be used to give you more Actions, Opportunities and other lovely things. Explore the Nex tab above.",
+      "japanese": "運命点を使うと行動回数や新しい機会などを入手できます。上部の「ネクス」タブをご覧ください。",
+      "category": "FatePointChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.FatePointChangeMessage",
+      "method": ".ctor",
+      "english": "You have gained ",
+      "japanese": "獲得：",
+      "category": "FatePointChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.InfoMessage",
+      "method": ".ctor",
+      "english": "A thing has happened!",
+      "japanese": "何かが起こりました！",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.NotEnoughActionsMessage",
+      "method": ".ctor",
+      "english": "<p>You don't have enough actions for that! Your options:\r\n<br/>&nbsp;&nbsp;- Wait patiently for your action candle to refresh.\r\n<br/>&nbsp;&nbsp;- [fatelink] to use\r\n<br/>&nbsp;&nbsp;- [sharelink]\r\n\r\n</p>",
+      "japanese": "<p>行動回数が足りません。選べる方法：\r\n<br/>&nbsp;&nbsp;- 行動回数が回復するのを待つ。\r\n<br/>&nbsp;&nbsp;- [fatelink]を使う\r\n<br/>&nbsp;&nbsp;- [sharelink]\r\n\r\n</p>",
+      "category": "NotEnoughActionsMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.NotEnoughActionsMessage",
+      "method": ".ctor",
+      "english": "You need more actions!",
+      "japanese": "行動回数が足りません！",
+      "category": "NotEnoughActionsMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityCapMessage",
+      "method": ".ctor",
+      "english": " has not increased: this quality cannot currently increase past  ",
+      "japanese": "は上がりませんでした。現在の上限：",
+      "category": "QualityCapMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": ".ctor",
+      "english": " change ",
+      "japanese": "変動：",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": ".ctor",
+      "english": " has dropped to ",
+      "japanese": "は低下しました：",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": ".ctor",
+      "english": " has increased to ",
+      "japanese": "は上昇しました：",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": ".ctor",
+      "english": " is dropping...",
+      "japanese": "は低下しています……",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": ".ctor",
+      "english": " is increasing...",
+      "japanese": "は上昇しています……",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": ".ctor",
+      "english": " more needed to reach level ",
+      "japanese": "レベル到達まで、あと",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": ".ctor",
+      "english": ", ",
+      "japanese": "、",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": ".ctor",
+      "english": "</strong> has dropped to ",
+      "japanese": "</strong>が低下しました：",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": ".ctor",
+      "english": "</strong> has increased to ",
+      "japanese": "</strong>が上昇しました：",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": ".ctor",
+      "english": "</strong> is increasing...",
+      "japanese": "</strong>が上昇しています……",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": ".ctor",
+      "english": "My ",
+      "japanese": "自分の",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": ".ctor",
+      "english": "[This is a metaquality! It will appear on your user profile, and may unlock new starting options in other worlds.]",
+      "japanese": "［この特性はプロフィールに記録され、ほかの世界で新たな開始条件を解放することがあります。］",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "<strong>{0}</strong> shows your progress in the venture.",
+      "japanese": "<strong>{0}</strong>は、この冒険の進捗を示します。",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "A twist in my tale! I am now {0}.",
+      "japanese": "物語に転機が。私は今や{0}です。",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "A twist in your tale! You are now <strong>{0}</strong>.",
+      "japanese": "物語に転機が。あなたは今や<strong>{0}</strong>です。",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "An Accomplishment! I am now {0}.",
+      "japanese": "実績達成！ {0}",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "An Accomplishment! You are now <strong>{0}</strong>.",
+      "japanese": "実績達成！ <strong>{0}</strong>",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "Begun a new venture! <strong>{0}</strong>",
+      "japanese": "新たな冒険が始まりました！ <strong>{0}</strong>",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "Boldly done! You have chosen an Ambition! <strong>{0}</strong>",
+      "japanese": "野望を定めました！ <strong>{0}</strong>",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "I have begun a new venture!{0}",
+      "japanese": "新たな冒険を始めました！ {0}",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "I have chosen an Ambition! {0}",
+      "japanese": "野望を選びました！ {0}",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "I've gained a new quality: {0} at {1}",
+      "japanese": "新しい能力を獲得：{0}（レベル：{1}）",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "I've learnt a new route: {0}",
+      "japanese": "新しい航路を発見：{0}",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "I've made a friend, or at least a contact: {0}.",
+      "japanese": "新たな知人ができました：{0}。",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "You've gained a new quality: <strong>{0}</strong> at {1}",
+      "japanese": "新しい能力を獲得：<strong>{0}</strong>（レベル：{1}）",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "You've learnt a new route: <strong>{0}</strong>",
+      "japanese": "新しい航路を発見：<strong>{0}</strong>",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "You've made a friend, or at least a contact: <strong>{0}</strong>.",
+      "japanese": "新たな知人ができました：<strong>{0}</strong>。",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "AcquisitionMessageForQualityAndCategory",
+      "english": "{0} shows my progress in the venture.",
+      "japanese": "{0}は、この冒険の進捗を示します。",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "LossMessageForQualityAndCategory",
+      "english": ").",
+      "japanese": "）。",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "LossMessageForQualityAndCategory",
+      "english": "A twist in my tale! I am no longer {0}.",
+      "japanese": "物語に変化が。私はもはや{0}ではありません。",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "LossMessageForQualityAndCategory",
+      "english": "A twist in your tale! You are no longer <strong>{0}</strong>.",
+      "japanese": "物語に変化が。あなたはもはや<strong>{0}</strong>ではありません。",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "LossMessageForQualityAndCategory",
+      "english": "I've lost a quality: {0}.",
+      "japanese": "能力を失いました：{0}。",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "LossMessageForQualityAndCategory",
+      "english": "I've lost a quality: {0}. (but my equipped items still give me an effective level of ",
+      "japanese": "能力を失いました：{0}。（ただし装備による有効レベルは",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "LossMessageForQualityAndCategory",
+      "english": "You've lost a quality: <strong>{0}</strong>.",
+      "japanese": "能力を失いました：<strong>{0}</strong>。",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.PyramidQualityChangeMessage",
+      "method": "LossMessageForQualityAndCategory",
+      "english": "You've lost a quality: <strong>{0}</strong>. (but your equipped items still give you an effective level of ",
+      "japanese": "能力を失いました：<strong>{0}</strong>。（ただし装備による有効レベルは",
+      "category": "PyramidQualityChangeMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage",
+      "method": ".ctor",
+      "english": " of this: '",
+      "japanese": "個：『",
+      "category": "QualityExplicitlySetMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage",
+      "method": ".ctor",
+      "english": "' Quality has gone!",
+      "japanese": "』の特性が失われました！",
+      "category": "QualityExplicitlySetMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage",
+      "method": ".ctor",
+      "english": "' Quality is now ",
+      "japanese": "』の特性は現在：",
+      "category": "QualityExplicitlySetMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage",
+      "method": ".ctor",
+      "english": "' has been reset: a conclusion, or a new beginning?",
+      "japanese": "』はリセットされました。結末か、新しい始まりか？",
+      "category": "QualityExplicitlySetMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage",
+      "method": ".ctor",
+      "english": "An occurrence! Your '",
+      "japanese": "出来事が起きました！ あなたの『",
+      "category": "QualityExplicitlySetMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage",
+      "method": ".ctor",
+      "english": "You have a new Accomplishment...",
+      "japanese": "新たな実績を獲得しました……",
+      "category": "QualityExplicitlySetMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage",
+      "method": ".ctor",
+      "english": "You no longer have any of this: '",
+      "japanese": "もう所持していません：『",
+      "category": "QualityExplicitlySetMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage",
+      "method": ".ctor",
+      "english": "You now have ",
+      "japanese": "獲得：",
+      "category": "QualityExplicitlySetMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage",
+      "method": ".ctor",
+      "english": "Your '",
+      "japanese": "あなたの『",
+      "category": "QualityExplicitlySetMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage",
+      "method": ".ctor",
+      "english": "[This is a metaquality! It will appear on your user profile, and may unlock new starting options in other worlds.]",
+      "japanese": "［この特性はプロフィールに記録され、ほかの世界で新たな開始条件を解放することがあります。］",
+      "category": "QualityExplicitlySetMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.SecondChanceSpentMessage",
+      "method": ".ctor",
+      "english": "You succeeded! ...but used up {0} {1} anyway",
+      "japanese": "成功しました！ ……ただし{0}個の{1}を消費しました。",
+      "category": "SecondChanceSpentMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.SecondChanceUsedMessage",
+      "method": ".ctor",
+      "english": " to get a second chance!",
+      "japanese": "を使って再挑戦しました！",
+      "category": "SecondChanceUsedMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.SecondChanceUsedMessage",
+      "method": ".ctor",
+      "english": "...but you used up ",
+      "japanese": "……ただし消費したのは",
+      "category": "SecondChanceUsedMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.StolenTrophyGiverMessage",
+      "method": ".ctor",
+      "english": "</strong>!",
+      "japanese": "</strong>！",
+      "category": "StolenTrophyGiverMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.StolenTrophyGiverMessage",
+      "method": ".ctor",
+      "english": "CONGRATULATIONS! You have stolen something special from your victim - <strong>",
+      "japanese": "お見事！ 相手から貴重な品を奪い取りました：<strong>",
+      "category": "StolenTrophyGiverMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.StoryletErrorMessage",
+      "method": ".ctor",
+      "english": "Something went wrong!..but everything's good. Click 'Done' to continue.",
+      "japanese": "問題が発生しましたが、進行には支障ありません。「完了」を押して続けてください。",
+      "category": "StoryletErrorMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.TrophyMessage",
+      "method": ".ctor",
+      "english": " from your successful kill.",
+      "japanese": "（討伐報酬）",
+      "category": "TrophyMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.TrophyMessage",
+      "method": ".ctor",
+      "english": " has provided you with 1 x ",
+      "japanese": "から、1個手に入れました：",
+      "category": "TrophyMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.Result.TrophyMessage",
+      "method": ".ctor",
+      "english": "Your ",
+      "japanese": "あなたの",
+      "category": "TrophyMessage"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Adored",
+      "japanese": "熱烈に愛される",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Celebrated",
+      "japanese": "名高い",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Distinguished",
+      "japanese": "卓越した",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Esteemed",
+      "japanese": "高く評価される",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Honoured",
+      "japanese": "敬意を払われる",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Idolized",
+      "japanese": "崇拝される",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Known",
+      "japanese": "知られている",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Liked",
+      "japanese": "好かれている",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Noticed",
+      "japanese": "注目されている",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Recognised",
+      "japanese": "認められている",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Respected",
+      "japanese": "尊敬される",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Unknown",
+      "japanese": "無名",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Well-regarded",
+      "japanese": "評判がよい",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Failbetter.Core.dll",
+      "type": "FailBetter.Core.ResultModel.CharacterWithLevel",
+      "method": "get_LevelDesc",
+      "english": "Worshipped",
+      "japanese": "神のように崇められる",
+      "category": "CharacterWithLevel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.AuthenticationProvider",
+      "method": "ResetPassword",
+      "english": "Please enter a valid email address",
+      "japanese": "正しいメールアドレスを入力してください",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.HoldProvider",
+      "method": "OpenNameDialog",
+      "english": "Go",
+      "japanese": "決定",
+      "category": "HoldProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.HoldProvider",
+      "method": "OpenNameDialog",
+      "english": "Rename your ship",
+      "japanese": "船名を変更",
+      "category": "HoldProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.JournalProvider",
+      "method": "RenderAccomplishments",
+      "english": "'s Accomplishments",
+      "japanese": "の実績",
+      "category": "JournalProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.JournalProvider",
+      "method": "RenderAccomplishments",
+      "english": "You don't have any accomplishments.",
+      "japanese": "まだ実績はありません。",
+      "category": "JournalProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.MenuProvider",
+      "method": "DeleteSave",
+      "english": "Are you sure you want to delete this game?",
+      "japanese": "このセーブデータを削除しますか？",
+      "category": "MenuProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.MenuProvider",
+      "method": "DeleteSave",
+      "english": "Confirm delete",
+      "japanese": "削除の確認",
+      "category": "MenuProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.MenuProvider",
+      "method": "Render",
+      "english": "Continue",
+      "japanese": "続ける",
+      "category": "MenuProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.MenuProvider",
+      "method": "Render",
+      "english": "Manual Save",
+      "japanese": "手動セーブ",
+      "category": "MenuProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.MenuProvider/<>c",
+      "method": "<UpdateLocalData>b__28_0",
+      "english": "The import failed, continue with your saved game or try again later.",
+      "japanese": "読み込みに失敗しました。保存済みのゲームを続けるか、後ほど再試行してください。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "AutoAddFuelBarrel",
+      "english": "Our fuel reserves are empty.",
+      "japanese": "燃料が底をつきました。",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "Dock",
+      "english": "a stranger",
+      "japanese": "見知らぬ人物",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "FeedCrew",
+      "english": "Fed the crew.",
+      "japanese": "船員に食事を与えた。",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "InitSailingUpdates",
+      "english": "Sailing Updates",
+      "japanese": "航海中の出来事",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ListenKeyboardEvents",
+      "english": " while at Port",
+      "japanese": "（入港中）",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ListenKeyboardEvents",
+      "english": "! Seek clearer waters.",
+      "japanese": "！ 見通しのよい海域へ移動してください。",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ListenKeyboardEvents",
+      "english": "An obstruction prevents you from ",
+      "japanese": "障害物があるため",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ListenKeyboardEvents",
+      "english": "Cannot ",
+      "japanese": "実行不可：",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ListenKeyboardEvents",
+      "english": "We're out of fuel!",
+      "japanese": "燃料切れだ！",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ListenKeyboardEvents",
+      "english": "dive",
+      "japanese": "潜水",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ListenKeyboardEvents",
+      "english": "diving",
+      "japanese": "潜水",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ListenKeyboardEvents",
+      "english": "surface",
+      "japanese": "浮上",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ListenKeyboardEvents",
+      "english": "surfacing",
+      "japanese": "浮上",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "OfficerReassignmentTerrorBump",
+      "english": "The reassignment has worried the crew! Change officers in port to avoid this.",
+      "japanese": "士官の配置変更で船員が動揺した！ 士官は港で配置換えしてください。",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "RecoverFromCorruption",
+      "english": "An update has moved your port!",
+      "japanese": "アップデートによって港の位置が変わりました！",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "RecoverFromCorruption",
+      "english": "Sorry about that. Would you like to return to London?",
+      "japanese": "申し訳ありません。ロンドンへ戻りますか？",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ToggleShipTransform",
+      "english": " here. Seek deeper waters.",
+      "japanese": "できません。この海域は浅すぎます。",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ToggleShipTransform",
+      "english": "You can't ",
+      "japanese": "ここでは",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ToggleShipTransform",
+      "english": "dive",
+      "japanese": "潜水",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "ToggleShipTransform",
+      "english": "surface",
+      "japanese": "浮上",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "TurboCharge",
+      "english": "FULL POWER! (Beware: your engines will  occasionally explode.)",
+      "japanese": "機関全速！ （無理を続けると機関が爆発することがあります。）",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "TurboCharge",
+      "english": "We're out of fuel!",
+      "japanese": "燃料切れだ！",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.NavigationProvider",
+      "method": "Undock",
+      "english": "WHY WON'T IT WORK? ...oh, we didn't install an engine.",
+      "japanese": "なぜ動かないんだ？ ……ああ、機関を取り付けていなかった。",
+      "category": "NavigationProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.OfficersProvider",
+      "method": "CreateOfficerPanel",
+      "english": "Available Officers",
+      "japanese": "雇用可能な士官",
+      "category": "OfficersProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.OfficersProvider",
+      "method": "CreateOfficerPanel",
+      "english": "You do not have any officers!",
+      "japanese": "士官を雇っていません！",
+      "category": "OfficersProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.ShipyardProvider",
+      "method": "DisplayShipyard",
+      "english": "Few ports in the Unterzee sell ships. Look elsewhere.",
+      "japanese": "地底海で船を売っている港はわずかです。別の港を探しましょう。",
+      "category": "ShipyardProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.ShipyardProvider",
+      "method": "DisplayShipyard",
+      "english": "No Shipyard available",
+      "japanese": "この港に造船所はありません",
+      "category": "ShipyardProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.ShipyardProvider",
+      "method": "OpenNameDialog",
+      "english": "Give your new ship a name",
+      "japanese": "新しい船に名前を付ける",
+      "category": "ShipyardProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.ShipyardProvider",
+      "method": "OpenNameDialog",
+      "english": "Go",
+      "japanese": "決定",
+      "category": "ShipyardProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ApplicationProviders.StoryletProvider",
+      "method": ".cctor",
+      "english": "There is currently no storylet to display.",
+      "japanese": "現在表示できる物語はありません。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.BeastieAttackController",
+      "method": "AttackSuccess",
+      "english": " damage!",
+      "japanese": "ダメージ！",
+      "category": "BeastieAttackController"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.BeastieAttackController",
+      "method": "AttackSuccess",
+      "english": "Staggered! Firing solutions have been set back.",
+      "japanese": "射撃妨害！ 攻撃準備が遅れました。",
+      "category": "BeastieAttackController"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.BeastieAttackController",
+      "method": "AttackSuccess",
+      "english": "Suffered ",
+      "japanese": "被害：",
+      "category": "BeastieAttackController"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.BeastieAttackController",
+      "method": "CollidedWithPlayer",
+      "english": " damage!",
+      "japanese": "ダメージ！",
+      "category": "BeastieAttackController"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.BeastieAttackController",
+      "method": "CollidedWithPlayer",
+      "english": "Staggered! Firing solutions have been set back.",
+      "japanese": "射撃妨害！ 攻撃準備が遅れました。",
+      "category": "BeastieAttackController"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.BeastieAttackController",
+      "method": "CollidedWithPlayer",
+      "english": "Suffered ",
+      "japanese": "被害：",
+      "category": "BeastieAttackController"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.CriticalCombatAttacks",
+      "method": "CrewDamageToBeastie",
+      "english": " crew damage!",
+      "japanese": "人の船員に被害！",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.CriticalCombatAttacks",
+      "method": "CrewDamageToBeastie",
+      "english": "Cannot inflict crew damage to ",
+      "japanese": "船員に被害を与えられない相手：",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.CriticalCombatAttacks",
+      "method": "CrewDamageToBeastie",
+      "english": "Critical Hit! ",
+      "japanese": "クリティカルヒット！ ",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.CriticalCombatAttacks",
+      "method": "CrewDamageToBeastie",
+      "english": "Inflicted ",
+      "japanese": "与えたダメージ：",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.CriticalCombatAttacks",
+      "method": "CrewDamageToPlayer",
+      "english": "You've Received a Critical Hit! ",
+      "japanese": "クリティカルヒットを受けた！ ",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.CriticalCombatAttacks",
+      "method": "MovementDebuffToBeastie",
+      "english": "Critical Hit! ",
+      "japanese": "クリティカルヒット！ ",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.CriticalCombatAttacks",
+      "method": "MovementDebuffToBeastie",
+      "english": "Inflicted speed debuff on ",
+      "japanese": "移動速度を低下させた相手：",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.ExoticCombatEffectProcessor",
+      "method": "FillTargetingSolutions",
+      "english": "None of the weapons are functional!",
+      "japanese": "使える武器がありません！",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.ExoticCombatEffectProcessor",
+      "method": "Lure",
+      "english": "You cannot use this item down here.",
+      "japanese": "ここではこのアイテムを使用できません。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.ExoticCombatEffectProcessor",
+      "method": "RepairSmall",
+      "english": "The hull does not need repairing.",
+      "japanese": "船体を修理する必要はありません。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.ExoticCombatEffectProcessor",
+      "method": "SummonBeastie",
+      "english": "You cannot use this item down here.",
+      "japanese": "ここではこのアイテムを使用できません。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Combat.ExoticCombatEffectProcessor",
+      "method": "SummonBeastie",
+      "english": "You must be farther out at zee to use this...",
+      "japanese": "使用するには、もっと沖へ出る必要があります……",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Data.CharacterRepository",
+      "method": "LoadGame",
+      "english": ".json\" appears to be corrupt or invalid, however the fallback save file was OK and has been restored.",
+      "japanese": "」は破損しているようです。予備セーブから復元しました。",
+      "category": "CharacterRepository"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Data.CharacterRepository",
+      "method": "LoadGame",
+      "english": "Restoring fallback save file",
+      "japanese": "予備セーブを復元しています",
+      "category": "CharacterRepository"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Data.CharacterRepository",
+      "method": "LoadGame",
+      "english": "The save file \"",
+      "japanese": "セーブファイル「",
+      "category": "CharacterRepository"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Data.CharacterRepository",
+      "method": "Save",
+      "english": "Backup failed! Please contact support.",
+      "japanese": "バックアップに失敗しました。サポートへご連絡ください。",
+      "category": "CharacterRepository"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Data.CharacterRepository",
+      "method": "Save",
+      "english": "Save failed!",
+      "japanese": "セーブに失敗しました！",
+      "category": "CharacterRepository"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Editor.MonoBehaviours.TileBuilder",
+      "method": "RenderUI",
+      "english": "Reveal all labels",
+      "japanese": "地名をすべて表示",
+      "category": "TileBuilder"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Editor.MonoBehaviours.TileBuilder",
+      "method": "RenderUI",
+      "english": "Reveal all terrain",
+      "japanese": "地形をすべて表示",
+      "category": "TileBuilder"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Editor.MonoBehaviours.TileBuilder",
+      "method": "RenderUI",
+      "english": "Select a tile:",
+      "japanese": "海域タイルを選択：",
+      "category": "TileBuilder"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Entities.Beasties.CompanionController",
+      "method": "SpawnSonar",
+      "english": "Something has been following us. It is patient.",
+      "japanese": "何かが、ずっとこちらをつけている。辛抱強い奴だ。",
+      "category": "CompanionController"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Entities.Beasties.SpawnedEntity",
+      "method": "GetDescription",
+      "english": " from ",
+      "japanese": "：",
+      "category": "SpawnedEntity"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Entities.Beasties.SpawnedEntity",
+      "method": "GetDescription",
+      "english": "Discovered a ",
+      "japanese": "発見：",
+      "category": "SpawnedEntity"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Entities.Geography.Phenomenon",
+      "method": "GetDescription",
+      "english": "discovered ",
+      "japanese": "発見：",
+      "category": "Phenomenon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Entities.Geography.TileLabel",
+      "method": "GetDescription",
+      "english": "Discovered  ",
+      "japanese": "発見：",
+      "category": "TileLabel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Entities.Weather.Fog",
+      "method": "OnEnter",
+      "english": "We have entered a fog-bank! Our gunners struggle to see our foe.",
+      "japanese": "濃霧に突入した！ 砲手たちは敵を視認できずにいる。",
+      "category": "Fog"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Entities.Weather.Snow",
+      "method": "OnEnter",
+      "english": "Snow sweeps down from the north! The ship's engines labour against it.",
+      "japanese": "北から吹雪が襲う！ 機関が唸り、船の速度が落ちる。",
+      "category": "Snow"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Entities.Weather.Waxwind",
+      "method": "OnEnter",
+      "english": "The killing Wax-Wind blows from the south! Engines labour: zailors cry out, and fall.",
+      "japanese": "南から死をもたらす蝋風が吹きつける！ 機関が唸り、船員たちが悲鳴を上げて倒れてゆく。",
+      "category": "Waxwind"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Enums.ExoticEffectFunctions",
+      "method": ".cctor",
+      "english": "Choose a Legacy, to preserve something for your next captain.",
+      "japanese": "遺産を選び、次の船長へ何かを引き継ぎましょう。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Enums.ExoticEffectFunctions",
+      "method": ".cctor",
+      "english": "Something, somewhere, has changed...",
+      "japanese": "どこかで何かが変わった……",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Enums.ExoticEffectFunctions",
+      "method": ".cctor",
+      "english": "Who are you?",
+      "japanese": "あなたは何者ですか？",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Enums.ExoticEffectFunctions",
+      "method": ".cctor",
+      "english": "You are returning to port...",
+      "japanese": "港へ帰還します……",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Enums.ExoticEffectFunctions",
+      "method": ".cctor",
+      "english": "You have a new ship.",
+      "japanese": "新しい船を手に入れました。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ExtensionMethods.KeycodeExtensionMethods",
+      "method": "HumanReadable",
+      "english": "Down",
+      "japanese": "下",
+      "category": "KeycodeExtensionMethods"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ExtensionMethods.KeycodeExtensionMethods",
+      "method": "HumanReadable",
+      "english": "Left",
+      "japanese": "左",
+      "category": "KeycodeExtensionMethods"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ExtensionMethods.KeycodeExtensionMethods",
+      "method": "HumanReadable",
+      "english": "Right",
+      "japanese": "右",
+      "category": "KeycodeExtensionMethods"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.ExtensionMethods.KeycodeExtensionMethods",
+      "method": "HumanReadable",
+      "english": "Up",
+      "japanese": "上",
+      "category": "KeycodeExtensionMethods"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.LogEntries",
+      "method": "GetInGameTime",
+      "english": "{0:MMMM} {1}{2}, {0:yyyy}",
+      "japanese": "{0:yyyy}年{0:MM}月{1}日",
+      "category": "LogEntries"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "DescribeCombatStats",
+      "english": " seconds",
+      "japanese": "秒",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "DescribeCombatStats",
+      "english": "Costs one ",
+      "japanese": "必要数：1 ",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "DescribeCombatStats",
+      "english": "Crew Damage: ",
+      "japanese": "船員ダメージ：",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "DescribeCombatStats",
+      "english": "Hull Damage: +",
+      "japanese": "船体ダメージ：＋",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "DescribeCombatStats",
+      "english": "Life Damage: +",
+      "japanese": "生命ダメージ：＋",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "DescribeCombatStats",
+      "english": "Stagger Amount: ",
+      "japanese": "妨害効果：",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "DescribeCombatStats",
+      "english": "Warmup Time: ",
+      "japanese": "準備時間：",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "GetQualityPossessionTooltip",
+      "english": " seconds",
+      "japanese": "秒",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "GetQualityPossessionTooltip",
+      "english": "Cooldown: ",
+      "japanese": "再使用まで：",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "GetQualityPossessionTooltip",
+      "english": "Equips to: ",
+      "japanese": "装備部位：",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "GetQualityPossessionTooltip",
+      "english": "Right click to speak to this officer",
+      "japanese": "右クリックで士官と会話",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "GetQualityPossessionTooltip",
+      "english": "Right click to use this item",
+      "japanese": "右クリックで使用",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter",
+      "method": "GetQualityPossessionTooltip",
+      "english": "Usable in combat: ",
+      "japanese": "戦闘中に使用可能：",
+      "category": "QPossessionTooltipFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QRequirementIconFormatters",
+      "method": "GetRequirementObjectText",
+      "english": " (them)",
+      "japanese": "（相手）",
+      "category": "QRequirementIconFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QRequirementIconFormatters",
+      "method": "GetRequirementObjectText",
+      "english": " (you)",
+      "japanese": "（あなた）",
+      "category": "QRequirementIconFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QRequirementIconFormatters",
+      "method": "QualityRequirementWithoutLevelAsRange",
+      "english": "(you have this)",
+      "japanese": "（所持しています）",
+      "category": "QRequirementIconFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QRequirementIconFormatters",
+      "method": "RequirementTextFor",
+      "english": " and ",
+      "japanese": "と",
+      "category": "QRequirementIconFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.QRequirementIconFormatters",
+      "method": "RequirementTextFor",
+      "english": " no more than ",
+      "japanese": "上限：",
+      "category": "QRequirementIconFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.RequirementIcons.QualityUnlockedWithLevelRequirementIcon",
+      "method": ".ctor",
+      "english": " (you have ",
+      "japanese": "（現在：",
+      "category": "QualityUnlockedWithLevelRequirementIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.RequirementIcons.QualityUnlockedWithLevelRequirementIcon",
+      "method": ".ctor",
+      "english": "Unlocked with ",
+      "japanese": "解放条件：",
+      "category": "QualityUnlockedWithLevelRequirementIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.RequirementIcons.QualityUnlockedWithoutLevelRequirementIcon",
+      "method": ".ctor",
+      "english": " is:\n",
+      "japanese": "の状態：\n",
+      "category": "QualityUnlockedWithoutLevelRequirementIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.RequirementIcons.QualityUnlockedWithoutLevelRequirementIcon",
+      "method": ".ctor",
+      "english": "Unlocked when ",
+      "japanese": "解放条件：",
+      "category": "QualityUnlockedWithoutLevelRequirementIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.RequirementIcons.StatusLockedWithLevelRequirementIcon",
+      "method": ".ctor",
+      "english": " (you have ",
+      "japanese": "（現在：",
+      "category": "StatusLockedWithLevelRequirementIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.RequirementIcons.StatusLockedWithLevelRequirementIcon",
+      "method": ".ctor",
+      "english": "You need ",
+      "japanese": "必要条件：",
+      "category": "StatusLockedWithLevelRequirementIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.RequirementIcons.StatusLockedWithoutLevelRequirementIcon",
+      "method": ".ctor",
+      "english": " is:\n",
+      "japanese": "の状態：\n",
+      "category": "StatusLockedWithoutLevelRequirementIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.RequirementIcons.StatusLockedWithoutLevelRequirementIcon",
+      "method": ".ctor",
+      "english": "Unlocked when ",
+      "japanese": "解放条件：",
+      "category": "StatusLockedWithoutLevelRequirementIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.RequirementIcons.ThingLockedWithLevelRequirementIcon",
+      "method": ".ctor",
+      "english": " (you have ",
+      "japanese": "（現在：",
+      "category": "ThingLockedWithLevelRequirementIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.RequirementIcons.ThingLockedWithLevelRequirementIcon",
+      "method": ".ctor",
+      "english": "Unlocked with ",
+      "japanese": "解放条件：",
+      "category": "ThingLockedWithLevelRequirementIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.RequirementIcons.ThingLockedWithoutLevelRequirementIcon",
+      "method": ".ctor",
+      "english": " (you have ",
+      "japanese": "（現在：",
+      "category": "ThingLockedWithoutLevelRequirementIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.RequirementIcons.ThingLockedWithoutLevelRequirementIcon",
+      "method": ".ctor",
+      "english": "You need ",
+      "japanese": "必要条件：",
+      "category": "ThingLockedWithoutLevelRequirementIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.StatusQualityFormatter",
+      "method": "GetDescription",
+      "english": "Right click to use this item",
+      "japanese": "右クリックで使用",
+      "category": "StatusQualityFormatter"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters",
+      "method": "GetExposedDamageMessage",
+      "english": " changed by ",
+      "japanese": "変動：",
+      "category": "CombatAttackStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters",
+      "method": "GetExposedDamageMessage",
+      "english": " crew!",
+      "japanese": "人の船員！",
+      "category": "CombatAttackStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters",
+      "method": "GetExposedDamageMessage",
+      "english": " supplies!",
+      "japanese": "物資！",
+      "category": "CombatAttackStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters",
+      "method": "GetExposedDamageMessage",
+      "english": "Lost ",
+      "japanese": "喪失：",
+      "category": "CombatAttackStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters",
+      "method": "GetExposedDamageMessage",
+      "english": "Terror has increased by ",
+      "japanese": "恐怖が増加：",
+      "category": "CombatAttackStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters",
+      "method": "GetTooltip",
+      "english": " seconds",
+      "japanese": "秒",
+      "category": "CombatAttackStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters",
+      "method": "GetTooltip",
+      "english": " • Life Damage: ",
+      "japanese": " ・生命ダメージ：",
+      "category": "CombatAttackStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters",
+      "method": "GetTooltip",
+      "english": "Hull Damage: ",
+      "japanese": "船体ダメージ：",
+      "category": "CombatAttackStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters",
+      "method": "GetTooltip",
+      "english": "Warmup: ",
+      "japanese": "準備時間：",
+      "category": "CombatAttackStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetCrewTooltip",
+      "english": " crew lost each hit if opponent is below 50% hull",
+      "japanese": "人の船員が、船体耐久50％未満の相手に命中するたび失われます",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetCrewTooltip",
+      "english": "Crew Damage",
+      "japanese": "船員ダメージ",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetCrewTooltip",
+      "english": "Does not damage crew",
+      "japanese": "船員にはダメージを与えません",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetHullTooltip",
+      "english": " bonus from your Iron stat)",
+      "japanese": "の鉄による補正）",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetHullTooltip",
+      "english": " damage ",
+      "japanese": "のダメージ ",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetHullTooltip",
+      "english": "Hull Damage",
+      "japanese": "船体ダメージ",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetLifeTooltip",
+      "english": " bonus from your Iron stat)",
+      "japanese": "の鉄による補正）",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetLifeTooltip",
+      "english": " damage ",
+      "japanese": "のダメージ ",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetLifeTooltip",
+      "english": "Life Damage",
+      "japanese": "生命ダメージ",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetStaggerTooltip",
+      "english": " seconds knocked off your opponents firing solutions for each hit",
+      "japanese": "秒間、敵の射撃準備を遅らせます",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetStaggerTooltip",
+      "english": "Does not stagger opponent",
+      "japanese": "敵の攻撃準備を妨害しません",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetStaggerTooltip",
+      "english": "Stagger Amount",
+      "japanese": "妨害効果",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetTimeTooltip",
+      "english": " seconds ",
+      "japanese": "秒 ",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetTimeTooltip",
+      "english": " seconds bonus from your Mirrors stat)",
+      "japanese": "秒の鏡による補正）",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetTimeTooltip",
+      "english": "Warmup time",
+      "japanese": "準備時間",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetTooltip",
+      "english": " second",
+      "japanese": "秒",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetTooltip",
+      "english": " seconds",
+      "japanese": "秒",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetTooltip",
+      "english": "Cooldown: ",
+      "japanese": "再使用まで：",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters",
+      "method": "GetTooltip",
+      "english": "Using this item will not consume it",
+      "japanese": "使用しても消費されません",
+      "category": "CombatItemStringFormatters"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Import.Importer",
+      "method": "Download",
+      "english": "Downloading...",
+      "japanese": "ダウンロード中……",
+      "category": "Importer"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Import.Importer",
+      "method": "DownloadImages",
+      "english": "Downloading Images...",
+      "japanese": "画像をダウンロード中……",
+      "category": "Importer"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Import.Importer",
+      "method": "Import",
+      "english": "Importing...",
+      "japanese": "データを読み込み中……",
+      "category": "Importer"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Import.Importer",
+      "method": "VerifyDownload",
+      "english": "Verifying download...",
+      "japanese": "データを検証中……",
+      "category": "Importer"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Import.Importer/<BeginImport>d__18",
+      "method": "MoveNext",
+      "english": "Content is up to date",
+      "japanese": "コンテンツは最新です",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.MonoBehaviours.Editor_Scripts.OnScreenDebug",
+      "method": "OnGUI",
+      "english": "Null EntityName",
+      "japanese": "名称のない対象",
+      "category": "OnScreenDebug"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.MonoBehaviours.Editor_Scripts.OnScreenDebug",
+      "method": "OnGUI",
+      "english": "Potential Targets: ",
+      "japanese": "対象候補：",
+      "category": "OnScreenDebug"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Phenomena.AdHoc.ExplosiveMine",
+      "method": "GetMessage",
+      "english": " damage!",
+      "japanese": "ダメージ！",
+      "category": "ExplosiveMine"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Phenomena.AdHoc.ExplosiveMine",
+      "method": "GetMessage",
+      "english": "Suffered ",
+      "japanese": "被害：",
+      "category": "ExplosiveMine"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Phenomena.AdHoc.EyeOfTheUniverse",
+      "method": "AbyssalGaze",
+      "english": " (gained ",
+      "japanese": "（恐怖 ＋",
+      "category": "EyeOfTheUniverse"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Phenomena.AdHoc.EyeOfTheUniverse",
+      "method": "AbyssalGaze",
+      "english": " Terror)",
+      "japanese": "）",
+      "category": "EyeOfTheUniverse"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Phenomena.Physics.InteractableWitherweed",
+      "method": "OnTriggerEnter2D",
+      "english": "The Witherweed damages our hull!",
+      "japanese": "ウィザーウィードが船体を傷つけている！",
+      "category": "InteractableWitherweed"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Phenomena.QualityEffects.QEffectOverTime",
+      "method": "OnTriggerStay2D",
+      "english": " damage!",
+      "japanese": "ダメージ！",
+      "category": "QEffectOverTime"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Phenomena.QualityEffects.QEffectOverTime",
+      "method": "OnTriggerStay2D",
+      "english": "Suffered ",
+      "japanese": "被害：",
+      "category": "QEffectOverTime"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Phenomena.ShipEffects.Witherweed",
+      "method": "OnTriggerStay2D",
+      "english": "Your engines slow in the Witherweed! Engines labour: zailors cry out, and fall.",
+      "japanese": "ウィザーウィードに捕まり、機関が減速する！ 船員たちは悲鳴を上げ、倒れてゆく。",
+      "category": "Witherweed"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "BatSiginalUpdate",
+      "english": "Clicking this will add an icon to your chart.",
+      "japanese": "クリックすると海図に印が追加されます。",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetBatSignal",
+      "english": " is ",
+      "japanese": "は",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetBatSignal",
+      "english": " to the ",
+      "japanese": "、方角は",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetBatSignal",
+      "english": "(Click to mark on your chart)",
+      "japanese": "（クリックして海図に印を付ける）",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetBatSignal",
+      "english": "There are no islands within the zee-bat's range.",
+      "japanese": "海蝙蝠の偵察範囲には島がない。",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetBatSignal",
+      "english": "There is something underwater",
+      "japanese": "海中に何かがいる",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetCompassPoint",
+      "english": "East",
+      "japanese": "東",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetCompassPoint",
+      "english": "North",
+      "japanese": "北",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetCompassPoint",
+      "english": "Northeast",
+      "japanese": "北東",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetCompassPoint",
+      "english": "Northwest",
+      "japanese": "北西",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetCompassPoint",
+      "english": "South",
+      "japanese": "南",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetCompassPoint",
+      "english": "Southeast",
+      "japanese": "南東",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetCompassPoint",
+      "english": "Southwest",
+      "japanese": "南西",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetCompassPoint",
+      "english": "West",
+      "japanese": "西",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetFuzzyDistance",
+      "english": "a long way",
+      "japanese": "かなり遠く",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetFuzzyDistance",
+      "english": "close by",
+      "japanese": "すぐ近く",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetFuzzyDistance",
+      "english": "some distance",
+      "japanese": "やや遠く",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetSubmergedCityIndication",
+      "english": " to the ",
+      "japanese": "、方角は",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetSubmergedCityIndication",
+      "english": ", it is ",
+      "japanese": "、位置は",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "GetSubmergedCityIndication",
+      "english": "The sonar has picked up an underwater settlement",
+      "japanese": "ソナーが海底の集落を捉えた",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.InputControls.InputProvider",
+      "method": "ToggleRepair",
+      "english": "We've suffered heavy damage. We need to return to London to make repairs.",
+      "japanese": "船体が深刻な損傷を受けた。ロンドンへ帰還して修理しなければならない。",
+      "category": "InputProvider"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.Phenomena.Physics.Barrier",
+      "method": "OnTriggerEnter2D",
+      "english": "Go any further north, and ice or isolation would destroy you.",
+      "japanese": "これ以上北へ進めば、氷か孤立によって船は失われてしまう。",
+      "category": "Barrier"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.Physics.MoveBoat",
+      "method": "CheckFragments",
+      "english": "! Speak to your officers to improve your abilities.",
+      "japanese": "！ 士官に話しかけて能力を高めましょう。",
+      "category": "MoveBoat"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.Physics.MoveBoat",
+      "method": "CheckFragments",
+      "english": "You have gained a ",
+      "japanese": "新たに獲得：",
+      "category": "MoveBoat"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.Physics.MoveBoat",
+      "method": "DiscoverBeastie",
+      "english": "Sighted ",
+      "japanese": "発見：",
+      "category": "MoveBoat"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.Physics.MoveBoat",
+      "method": "MessageWithFragments",
+      "english": " fragments gained)</b>",
+      "japanese": "個の断片を獲得）</b>",
+      "category": "MoveBoat"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.Scripts.UI.Interactions.DragDropCombatItem",
+      "method": "AssignSlot",
+      "english": "You cannot switch item slot during combat!",
+      "japanese": "戦闘中は装備スロットを変更できません！",
+      "category": "DragDropCombatItem"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Combat.AttackBar",
+      "method": "UpdateContent",
+      "english": "Aft",
+      "japanese": "船尾",
+      "category": "AttackBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Combat.AttackBar",
+      "method": "UpdateContent",
+      "english": "Deck",
+      "japanese": "甲板",
+      "category": "AttackBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Combat.AttackBar",
+      "method": "UpdateContent",
+      "english": "Forward",
+      "japanese": "前進",
+      "category": "AttackBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Combat.AttackButton",
+      "method": ".ctor",
+      "english": " weapon (",
+      "japanese": "の武器（",
+      "category": "AttackButton"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Combat.AttackButton",
+      "method": ".ctor",
+      "english": "Aft",
+      "japanese": "船尾",
+      "category": "AttackButton"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Combat.AttackButton",
+      "method": ".ctor",
+      "english": "Deck",
+      "japanese": "甲板",
+      "category": "AttackButton"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Combat.AttackButton",
+      "method": ".ctor",
+      "english": "Forward",
+      "japanese": "前進",
+      "category": "AttackButton"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Combat.AttackButton",
+      "method": ".ctor",
+      "english": "cannot be equipped on this ship",
+      "japanese": "この船には装備できません",
+      "category": "AttackButton"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Combat.AttackButton",
+      "method": ".ctor",
+      "english": "none equipped!",
+      "japanese": "未装備！",
+      "category": "AttackButton"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Combat.AttackButton",
+      "method": "ToggleTooltip",
+      "english": " weapon ",
+      "japanese": "の武器 ",
+      "category": "AttackButton"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Combat.HealthBar",
+      "method": "Update",
+      "english": " (Crew: ",
+      "japanese": "（船員：",
+      "category": "HealthBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Components.AuthPanel",
+      "method": ".ctor",
+      "english": "If you have forgotten your password, enter your email address and click here to begin the password reset process",
+      "japanese": "パスワードを忘れた場合は、メールアドレスを入力してここをクリックすると再設定できます。",
+      "category": "AuthPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Components.AuthPanel",
+      "method": "<.ctor>b__16_3",
+      "english": "You have been sent an email to begin the password reset process",
+      "japanese": "パスワード再設定の案内メールを送信しました。",
+      "category": "AuthPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Components.AuthPanel",
+      "method": "SetLoginButtonState",
+      "english": "Connecting...",
+      "japanese": "接続中……",
+      "category": "AuthPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Components.AuthPanel",
+      "method": "SetLoginButtonState",
+      "english": "Login",
+      "japanese": "ログイン",
+      "category": "AuthPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Components.AuthPanel",
+      "method": "get_IsValid",
+      "english": "enter a valid email address",
+      "japanese": "正しいメールアドレスを入力",
+      "category": "AuthPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Components.AuthPanel",
+      "method": "get_IsValid",
+      "english": "enter password",
+      "japanese": "パスワードを入力",
+      "category": "RegisterPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Components.RegisterPanel",
+      "method": "get_IsValid",
+      "english": "enter a password",
+      "japanese": "パスワードを入力",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Components.RegisterPanel",
+      "method": "get_IsValid",
+      "english": "invalid email",
+      "japanese": "メールアドレスが正しくありません",
+      "category": "RegisterPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Gazetteer.Gazetteer",
+      "method": ".ctor",
+      "english": "Hold",
+      "japanese": "船倉",
+      "category": "Gazetteer"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Gazetteer.Gazetteer",
+      "method": ".ctor",
+      "english": "Journal",
+      "japanese": "航海日誌",
+      "category": "Gazetteer"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Gazetteer.Gazetteer",
+      "method": ".ctor",
+      "english": "Officers",
+      "japanese": "士官",
+      "category": "Gazetteer"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Gazetteer.Gazetteer",
+      "method": ".ctor",
+      "english": "Shipyard",
+      "japanese": "造船所",
+      "category": "Gazetteer"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Gazetteer.Gazetteer",
+      "method": ".ctor",
+      "english": "Shops",
+      "japanese": "商店",
+      "category": "Gazetteer"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Gazetteer.Gazetteer",
+      "method": ".ctor",
+      "english": "Story",
+      "japanese": "物語",
+      "category": "Gazetteer"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Gazetteer.Gazetteer",
+      "method": "SetRightTitle",
+      "english": "<b>Click to jettison cargo</b>",
+      "japanese": "<b>クリックして積荷を投棄</b>",
+      "category": "Gazetteer"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Gazetteer.Gazetteer",
+      "method": "UpdateJettisonWidget",
+      "english": "<b>Cargo:</b> ",
+      "japanese": "<b>積荷：</b> ",
+      "category": "Gazetteer"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Gazetteer.JettisonDialog",
+      "method": ".ctor",
+      "english": " + Click for stacks of 10)",
+      "japanese": "＋クリックで10個ずつ）",
+      "category": "JettisonDialog"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Gazetteer.Officers.AvailableOfficers",
+      "method": ".ctor",
+      "english": "Available Officers",
+      "japanese": "雇用可能な士官",
+      "category": "AvailableOfficers"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Gazetteer.Officers.CurrentOfficers",
+      "method": ".ctor",
+      "english": "Current Officers",
+      "japanese": "配置中の士官",
+      "category": "CurrentOfficers"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.CrewIndicator",
+      "method": "GetTooltip",
+      "english": "If less than a quarter of your crew remains, Terror increases faster.",
+      "japanese": "船員が4分の1未満になると、恐怖が増える速度が速まります。",
+      "category": "CrewIndicator"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.CrewIndicator",
+      "method": "GetTooltip",
+      "english": "If less than half your crew remains, you may not move at full speed.",
+      "japanese": "船員が半数未満になると、最高速度で航行できなくなります。",
+      "category": "CrewIndicator"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.FuelBar",
+      "method": "GetTemperatureTooltip",
+      "english": "Engine temperature: ",
+      "japanese": "機関温度：",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.FuelBar",
+      "method": "getFuelBarrelTooltip",
+      "english": "Fuel barrels: ",
+      "japanese": "燃料樽：",
+      "category": "FuelBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.FuelBar",
+      "method": "getFuelTooltip",
+      "english": "% fuel remaining in barrel",
+      "japanese": "％の燃料が残っています",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.HungerBar",
+      "method": "GetHungerTooltip",
+      "english": "Hunger: ",
+      "japanese": "空腹：",
+      "category": "HungerBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.HungerBar",
+      "method": "GetSuppliesTooltip",
+      "english": "Supplies: ",
+      "japanese": "物資：",
+      "category": "HungerBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.Officers",
+      "method": ".cctor",
+      "english": "Chief Engineer",
+      "japanese": "機関長",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.Officers",
+      "method": ".cctor",
+      "english": "First Officer",
+      "japanese": "一等士官",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.Officers",
+      "method": ".cctor",
+      "english": "Gunnery Officer",
+      "japanese": "砲術士官",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.Officers",
+      "method": ".ctor",
+      "english": "Hide Officers",
+      "japanese": "士官を隠す",
+      "category": "Officers"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.Officers",
+      "method": ".ctor",
+      "english": "Show Officers",
+      "japanese": "士官を表示",
+      "category": "Officers"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.Officers",
+      "method": "CloseOfficers",
+      "english": "Show Officers",
+      "japanese": "士官を表示",
+      "category": "Officers"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.Officers",
+      "method": "OpenOfficers",
+      "english": "Hide Officers",
+      "japanese": "士官を隠す",
+      "category": "Officers"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.OxygenBar",
+      "method": "GetOxygenTooltip",
+      "english": "\n\nSurfacing will refill your Oxygen tanks",
+      "japanese": "\n\n浮上すると酸素が補充されます",
+      "category": "OxygenBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.OxygenBar",
+      "method": "GetOxygenTooltip",
+      "english": "Oxygen: ",
+      "japanese": "酸素：",
+      "category": "OxygenBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.ProgressPanel",
+      "method": ".ctor",
+      "english": "Something awaits you in port",
+      "japanese": "港で何かが待っている",
+      "category": "ProgressPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.ProgressPanel",
+      "method": "GetFragmentsTooltip",
+      "english": "</b> Fragments to gain a Secret",
+      "japanese": "</b>個の断片で「秘密」を獲得",
+      "category": "ProgressPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.ProgressPanel",
+      "method": "GetFragmentsTooltip",
+      "english": "</b>...so glean another <b>",
+      "japanese": "</b>……集めれば、さらに<b>",
+      "category": "ProgressPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.ProgressPanel",
+      "method": "GetFragmentsTooltip",
+      "english": "Your Pages score is <b>",
+      "japanese": "「頁」の能力値：<b>",
+      "category": "ProgressPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.RepairIndication",
+      "method": "UpdateQuantities",
+      "english": "<b>Hull:</b> ",
+      "japanese": "<b>船体：</b> ",
+      "category": "RepairIndication"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.RepairIndication",
+      "method": "UpdateQuantities",
+      "english": "<b>Supplies:</b> ",
+      "japanese": "<b>物資：</b> ",
+      "category": "RepairIndication"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.SailingHUD",
+      "method": "GetHoldTooltip",
+      "english": "Hold capacity: ",
+      "japanese": "船倉容量：",
+      "category": "SailingHUD"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.SailingHUD",
+      "method": "GetHullText",
+      "english": "Hull: ",
+      "japanese": "船体：",
+      "category": "SailingHUD"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.SailingHUD",
+      "method": "GetHullTooltip",
+      "english": "Hull: ",
+      "japanese": "船体：",
+      "category": "SailingHUD"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.TerrorBar",
+      "method": "GetGloomBarColour",
+      "english": "The terror of the zee is less here.",
+      "japanese": "この海域では恐怖が和らぎます。",
+      "category": "TerrorBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.TerrorBar",
+      "method": "GetGloomBarColour",
+      "english": "The zee is wide and dark. Terror is increasing.",
+      "japanese": "地底海は広く暗い。恐怖が増しています。",
+      "category": "TerrorBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.TerrorBar",
+      "method": "GetGloomBarColour",
+      "english": "You are far from light or hope. Terror is increasing rapidly.",
+      "japanese": "光も希望も遠い。恐怖が急速に増しています。",
+      "category": "TerrorBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.HUD.TerrorBar",
+      "method": "Update",
+      "english": "Terror: ",
+      "japanese": "恐怖：",
+      "category": "TerrorBar"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Hold.HoldPanel",
+      "method": ".ctor",
+      "english": "Your hold",
+      "japanese": "船倉",
+      "category": "HoldPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Hold.ShipLayoutPanel",
+      "method": ".ctor",
+      "english": "Click to rename your ship",
+      "japanese": "クリックして船名を変更",
+      "category": "ShipLayoutPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Hold.ShipLayoutPanel",
+      "method": ".ctor",
+      "english": "Unnamed Ship",
+      "japanese": "無名の船",
+      "category": "ShipLayoutPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.CombatItemIcon",
+      "method": "GetInteractions",
+      "english": "Assay",
+      "japanese": "価値を調べる",
+      "category": "CombatItemIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.CombatItemIcon",
+      "method": "GetInteractions",
+      "english": "Use",
+      "japanese": "使用",
+      "category": "CombatItemIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.EmptyCombatItemIcon",
+      "method": ".ctor",
+      "english": "Weapon slot ",
+      "japanese": "武器スロット：",
+      "category": "EmptyCombatItemIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.EquippableIcon",
+      "method": "EquipItem",
+      "english": "We must dock before we change the ship's equipment.",
+      "japanese": "装備の変更は港に停泊している間だけ行えます。",
+      "category": "EquippableIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.EquippableIcon",
+      "method": "GetInteractions",
+      "english": "Assay",
+      "japanese": "価値を調べる",
+      "category": "EquippableIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.EquippableIcon",
+      "method": "GetInteractions",
+      "english": "Fit to Slot",
+      "japanese": "装備する",
+      "category": "EquippableIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.EquippableIcon",
+      "method": "GetInteractions",
+      "english": "Use",
+      "japanese": "使用",
+      "category": "EquippableIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.OfficerIcon",
+      "method": "EquipItem",
+      "english": "We must dock before we change the ship's equipment.",
+      "japanese": "装備の変更は港に停泊している間だけ行えます。",
+      "category": "OfficerIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.OfficerIcon",
+      "method": "GetInteractions",
+      "english": "Assign",
+      "japanese": "配置",
+      "category": "OfficerIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.OfficerIcon",
+      "method": "GetInteractions",
+      "english": "Speak to",
+      "japanese": "会話する：",
+      "category": "OfficerIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.OfficerIcon",
+      "method": "GetInteractions",
+      "english": "Unassign",
+      "japanese": "配置解除",
+      "category": "OfficerIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.OfficerIcon",
+      "method": "UnequipItem",
+      "english": "We must dock before we change the ship's equipment.",
+      "japanese": "装備の変更は港に停泊している間だけ行えます。",
+      "category": "OfficerIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.SlotIcon",
+      "method": "GetInteractions",
+      "english": "Unequip",
+      "japanese": "装備を外す",
+      "category": "SlotIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.SlotIcon",
+      "method": "GetInteractions",
+      "english": "Use",
+      "japanese": "使用",
+      "category": "SlotIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.SlotIcon",
+      "method": "UnequipItem",
+      "english": "We must dock before we change the ship's equipment.",
+      "japanese": "装備の変更は港に停泊している間だけ行えます。",
+      "category": "SlotIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.ThingIcon",
+      "method": "GetInteractions",
+      "english": "Assay",
+      "japanese": "価値を調べる",
+      "category": "ThingIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Icons.ThingIcon",
+      "method": "GetInteractions",
+      "english": "Use",
+      "japanese": "使用",
+      "category": "ThingIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Journal.StoriesPanel",
+      "method": ".ctor",
+      "english": "Journal",
+      "japanese": "航海日誌",
+      "category": "StoriesPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Legacy.LegacyPanel/COPY",
+      "method": ".cctor",
+      "english": "Accept Legacy",
+      "japanese": "遺産を引き継ぐ",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Legacy.LegacyPanel/COPY",
+      "method": ".cctor",
+      "english": "Are you sure you want to accept this legacy?",
+      "japanese": "この遺産を引き継ぎますか？",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Legacy.LegacyPanel/COPY",
+      "method": ".cctor",
+      "english": "Are you sure you want to exit to Title Screen?",
+      "japanese": "タイトル画面へ戻りますか？",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Legacy.LegacyPanel/COPY",
+      "method": ".cctor",
+      "english": "Are you sure you want to proceed without accepting a legacy?",
+      "japanese": "遺産を引き継がずに始めますか？",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Legacy.LegacyPanel/COPY",
+      "method": ".cctor",
+      "english": "Correspondent: Retain 50% of their Pages value and their chart.",
+      "japanese": "記録者：前船長の「頁」の50％と海図を引き継ぎます。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Legacy.LegacyPanel/COPY",
+      "method": ".cctor",
+      "english": "Exit to Title Screen",
+      "japanese": "タイトル画面へ戻る",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Legacy.LegacyPanel/COPY",
+      "method": ".cctor",
+      "english": "Proceed Without a Legacy",
+      "japanese": "遺産を引き継がずに始める",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Legacy.LegacyPanel/COPY",
+      "method": ".cctor",
+      "english": "Pupil: Retain 50% of their Mirrors value and 50% of their money.",
+      "japanese": "弟子：前船長の「鏡」の50％と所持金の半分を引き継ぎます。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Legacy.LegacyPanel/COPY",
+      "method": ".cctor",
+      "english": "Retired ",
+      "japanese": "引退した：",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Legacy.LegacyPanel/COPY",
+      "method": ".cctor",
+      "english": "Rival: Retain 50% of their Iron value and one weapon.",
+      "japanese": "好敵手：前船長の「鉄」の50％と武器1つを引き継ぎます。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Legacy.LegacyPanel/COPY",
+      "method": ".cctor",
+      "english": "Salvager: Retain 50% of their Veils value and 50% of their money.",
+      "japanese": "引き揚げ人：前船長の「ヴェール」の50％と所持金の半分を引き継ぎます。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Legacy.LegacyPanel/COPY",
+      "method": ".cctor",
+      "english": "Shipmate: Retain 50% of their Hearts value and one officer.",
+      "japanese": "船仲間：前船長の「心」の50％と士官1人を引き継ぎます。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.KeybindingOptionPanel",
+      "method": "ListenForAlt",
+      "english": "Bind key",
+      "japanese": "キーを割り当てる",
+      "category": "KeybindingOptionPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.KeybindingOptionPanel",
+      "method": "ListenForAlt",
+      "english": "Cancel",
+      "japanese": "キャンセル",
+      "category": "KeybindingOptionPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.KeybindingOptionPanel",
+      "method": "ListenForAlt",
+      "english": "Press a new key for ",
+      "japanese": "新しいキーを押してください：",
+      "category": "KeybindingOptionPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.KeybindingOptionPanel",
+      "method": "ListenForKey",
+      "english": "Bind key",
+      "japanese": "キーを割り当てる",
+      "category": "KeybindingOptionPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.KeybindingOptionPanel",
+      "method": "ListenForKey",
+      "english": "Cancel",
+      "japanese": "キャンセル",
+      "category": "KeybindingOptionPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.KeybindingOptionPanel",
+      "method": "ListenForKey",
+      "english": "Press a new key for ",
+      "japanese": "新しいキーを押してください：",
+      "category": "KeybindingOptionPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.KeymappingPanel",
+      "method": "WarnAndRestoreDefaults",
+      "english": "Are you sure you want to restore the default control scheme?",
+      "japanese": "キー設定を初期状態に戻しますか？",
+      "category": "KeymappingPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.KeymappingPanel",
+      "method": "WarnAndRestoreDefaults",
+      "english": "Restore defaults",
+      "japanese": "初期設定に戻す",
+      "category": "KeymappingPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.LatestNews",
+      "method": "<SetPanelContents>b__16_0",
+      "english": "Cannot connect to the server to retrieve latest news.",
+      "japanese": "サーバーに接続できず、最新のお知らせを取得できません。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.LatestNews",
+      "method": "SetPanelContents",
+      "english": "Connect to our server to retrieve latest news and check for content updates.",
+      "japanese": "サーバーに接続して最新のお知らせとコンテンツ更新を確認します。",
+      "category": "LatestNews"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.LatestNews/UpdateButtonValues",
+      "method": ".cctor",
+      "english": "(Cannot connect)",
+      "japanese": "（接続できません）",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.LatestNews/UpdateButtonValues",
+      "method": ".cctor",
+      "english": "All stories up to date!",
+      "japanese": "物語はすべて最新です！",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.LatestNews/UpdateButtonValues",
+      "method": ".cctor",
+      "english": "Checking for update...",
+      "japanese": "更新を確認中……",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.LatestNews/UpdateButtonValues",
+      "method": ".cctor",
+      "english": "Connect to server",
+      "japanese": "サーバーへ接続",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.LatestNews/UpdateButtonValues",
+      "method": ".cctor",
+      "english": "NEW STORIES AVAILABLE!",
+      "japanese": "新しい物語が追加されました！",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.LatestNews/UpdateButtonValues",
+      "method": ".cctor",
+      "english": "Need latest game version",
+      "japanese": "最新バージョンが必要です",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ConfirmFallenLondon",
+      "english": "Explore Fallen London more deeply in the original browser game? It's free to play, but civilised free-to-play.",
+      "japanese": "ブラウザゲーム『Fallen London』で、堕ちたロンドンをさらに探索しませんか？ 基本プレイは無料です。",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ConfirmFallenLondon",
+      "english": "No, thank you",
+      "japanese": "いいえ、結構です",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ConfirmFallenLondon",
+      "english": "Play Fallen London",
+      "japanese": "Fallen Londonをプレイ",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ConfirmFallenLondon",
+      "english": "Yes please",
+      "japanese": "はい",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ConfirmNewgame",
+      "english": "Are you sure?",
+      "japanese": "よろしいですか？",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ConfirmNewgame",
+      "english": "Start new game",
+      "japanese": "新規ゲームを開始",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ExitGame",
+      "english": "Are you sure you want to quit?",
+      "japanese": "ゲームを終了しますか？",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ExitGame",
+      "english": "Exit game",
+      "japanese": "ゲームを終了",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ExitToMainMenu",
+      "english": "Are you sure you want to quit?",
+      "japanese": "ゲームを終了しますか？",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ExitToMainMenu",
+      "english": "Quit to main menu",
+      "japanese": "メインメニューに戻る",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "LoadGame",
+      "english": "You must choose a game to load",
+      "japanese": "ロードするセーブデータを選んでください",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "SaveGame",
+      "english": "Are you sure you want to overwrite ",
+      "japanese": "上書きしてもよろしいですか？ 対象：",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "SaveGame",
+      "english": "Invalid save name",
+      "japanese": "使用できないセーブ名です",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "SaveGame",
+      "english": "Overwrite save",
+      "japanese": "セーブデータを上書き",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "SetupLoadButton",
+      "english": "Switch to Merciful Mode to load manual saves",
+      "japanese": "手動セーブをロードするには慈悲モードに切り替えてください",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "SetupSaveButton",
+      "english": "Manual Save",
+      "japanese": "手動セーブ",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ShowActivateDialog",
+      "english": "Activate",
+      "japanese": "有効にする",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ShowActivateDialog",
+      "english": "Activation code",
+      "japanese": "認証コード",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "ShowActivateDialog",
+      "english": "Use this activation code, unless you have another.",
+      "japanese": "別のコードを持っていなければ、この認証コードを使ってください。",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "UpdateContent",
+      "english": "Importing..",
+      "japanese": "データを読み込み中……",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "WarnAboutMercifulMode",
+      "english": "In Unforgiving Mode, Sunless Sea autosaves whenever you dock, and whenever you die. You may switch to Merciful Mode and save manually. This will remove your character's Invictus Token.",
+      "japanese": "容赦なきモードでは、入港時と死亡時に自動セーブされます。慈悲モードに切り替えれば手動セーブが可能になりますが、船長の不敗の証は失われます。",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu",
+      "method": "WarnAboutMercifulMode",
+      "english": "Merciful Mode",
+      "japanese": "慈悲モード",
+      "category": "MainMenu"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu/UpdateButtonValues",
+      "method": ".cctor",
+      "english": "(Cannot connect)",
+      "japanese": "（接続できません）",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu/UpdateButtonValues",
+      "method": ".cctor",
+      "english": "All stories up to date!",
+      "japanese": "物語はすべて最新です！",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu/UpdateButtonValues",
+      "method": ".cctor",
+      "english": "Checking for update...",
+      "japanese": "更新を確認中……",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu/UpdateButtonValues",
+      "method": ".cctor",
+      "english": "Need latest game version",
+      "japanese": "最新バージョンが必要です",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.MainMenu/UpdateButtonValues",
+      "method": ".cctor",
+      "english": "New Stories Available!",
+      "japanese": "新しい物語があります！",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.AccountOptionsPanel",
+      "method": ".ctor",
+      "english": "<b>Username:</b> ",
+      "japanese": "<b>ユーザー名：</b> ",
+      "category": "AccountOptionsPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.AccountOptionsPanel",
+      "method": ".ctor",
+      "english": "<b>Username:</b> (authentication required)",
+      "japanese": "<b>ユーザー名：</b>（認証が必要）",
+      "category": "AccountOptionsPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.AccountOptionsPanel",
+      "method": ".ctor",
+      "english": "Quit to the Title Screen before attempting to Authenticate.",
+      "japanese": "認証する前にタイトル画面へ戻ってください。",
+      "category": "AccountOptionsPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.AccountOptionsPanel",
+      "method": "ReAuthenticate",
+      "english": "Currently Playing",
+      "japanese": "プレイ中",
+      "category": "AccountOptionsPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.AccountOptionsPanel",
+      "method": "ReAuthenticate",
+      "english": "Outdated Version",
+      "japanese": "バージョンが古くなっています",
+      "category": "AccountOptionsPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.AccountOptionsPanel",
+      "method": "ReAuthenticate",
+      "english": "Please update to the latest version of the game.",
+      "japanese": "ゲームを最新版に更新してください。",
+      "category": "AccountOptionsPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.AccountOptionsPanel",
+      "method": "ReAuthenticate",
+      "english": "Quit to the Title Screen before attempting to Authenticate.",
+      "japanese": "認証する前にタイトル画面へ戻ってください。",
+      "category": "AccountOptionsPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.AccountOptionsPanel",
+      "method": "ReAuthenticate",
+      "english": "Software version locked!",
+      "japanese": "このバージョンは利用できません！",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.OptionsOverviewPanel",
+      "method": "ConfirmResetTutorials",
+      "english": "All tutorials have been restored",
+      "japanese": "すべてのチュートリアルが復元されました",
+      "category": "OptionsOverviewPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.OptionsOverviewPanel",
+      "method": "ConfirmResetTutorials",
+      "english": "Tutorial reset",
+      "japanese": "チュートリアルをリセットしました",
+      "category": "OptionsOverviewPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.OptionsOverviewPanel",
+      "method": "CreateOptions",
+      "english": "Account Management",
+      "japanese": "アカウント管理",
+      "category": "OptionsOverviewPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.OptionsOverviewPanel",
+      "method": "CreateOptions",
+      "english": "Audio Settings",
+      "japanese": "音声設定",
+      "category": "OptionsOverviewPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.OptionsOverviewPanel",
+      "method": "CreateOptions",
+      "english": "Edit Keybindings",
+      "japanese": "キー割り当ての変更",
+      "category": "OptionsOverviewPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.OptionsOverviewPanel",
+      "method": "CreateOptions",
+      "english": "Reset tutorial",
+      "japanese": "チュートリアルをリセット",
+      "category": "OptionsOverviewPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.OptionsOverviewPanel",
+      "method": "CreateOptions",
+      "english": "Video Settings",
+      "japanese": "画面設定",
+      "category": "OptionsOverviewPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.VideoOptionsPanel",
+      "method": ".ctor",
+      "english": "Disabled",
+      "japanese": "無効",
+      "category": "VideoOptionsPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.VideoOptionsPanel",
+      "method": ".ctor",
+      "english": "Enabled",
+      "japanese": "有効",
+      "category": "VideoOptionsPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.VideoOptionsPanel",
+      "method": ".ctor",
+      "english": "Fullscreen",
+      "japanese": "全画面表示",
+      "category": "VideoOptionsPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.VideoOptionsPanel",
+      "method": ".ctor",
+      "english": "Windowed",
+      "japanese": "ウィンドウ表示",
+      "category": "VideoOptionsPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Menus.Options.VideoOptionsPanel",
+      "method": "WarnAboutResolution",
+      "english": "The maximum recommended resolution is 1920x1080, you may experience issues above this size.",
+      "japanese": "推奨最大解像度は1920×1080です。これを超えると問題が発生する場合があります。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Officers.AvatarAndNamePanel",
+      "method": "Accept",
+      "english": "Only the gods of the deep zee are nameless.",
+      "japanese": "名を持たぬのは、深海の神々くらいのものです。",
+      "category": "AvatarAndNamePanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Officers.AvatarAndNamePanel",
+      "method": "Accept",
+      "english": "You must enter a name",
+      "japanese": "名前を入力してください",
+      "category": "AvatarAndNamePanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Promo.AdvertBlock",
+      "method": "WarnAndVisitURL",
+      "english": "Sunless Sea will remain running and you can return at any time. Would you like to continue?",
+      "japanese": "ゲームは起動したままです。いつでも戻れます。外部リンクを開きますか？",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Promo.AdvertBlock",
+      "method": "WarnAndVisitURL",
+      "english": "You're about to open a link",
+      "japanese": "外部リンクを開こうとしています",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": ".ctor",
+      "english": "Cost:",
+      "japanese": "価格：",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": ".ctor",
+      "english": "Total:",
+      "japanese": "合計：",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": ".ctor",
+      "english": "Trade:",
+      "japanese": "下取り：",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": ".ctor",
+      "english": "Your current ship",
+      "japanese": "現在の船",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Aft",
+      "japanese": "船尾",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Auxiliary",
+      "japanese": "補助装備",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Bridge",
+      "japanese": "船橋",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Deck",
+      "japanese": "甲板",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Engines",
+      "japanese": "機関",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Forward",
+      "japanese": "前進",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Hearts bonus",
+      "japanese": "心補正",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Hold Capacity",
+      "japanese": "船倉容量",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Hull",
+      "japanese": "船体",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Iron bonus",
+      "japanese": "鉄補正",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Mirrors bonus",
+      "japanese": "鏡補正",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Pages bonus",
+      "japanese": "頁補正",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Quarters",
+      "japanese": "船室",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Ship slots:",
+      "japanese": "装備スロット：",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Veils bonus",
+      "japanese": "ヴェール補正",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "PopulateStatFields",
+      "english": "Weight",
+      "japanese": "重量",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "SetupStatHeader",
+      "english": "Detailed Information",
+      "japanese": "船の詳細",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "StatTableHidden",
+      "english": "Show Detailed Information",
+      "japanese": "詳細を表示",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipPanel",
+      "method": "StatTableShown",
+      "english": "Hide Detailed Information",
+      "japanese": "詳細を隠す",
+      "category": "ShipPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Shipyard.ShipShopPanel",
+      "method": ".ctor",
+      "english": "Available ships",
+      "japanese": "購入可能な船",
+      "category": "ShipShopPanel"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.AvailableStorylet",
+      "method": ".ctor",
+      "english": "Unavailable while in editor mode.",
+      "japanese": "編集モード中は利用できません。",
+      "category": "VerifiedAdditionalPlayerFacingUI"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A chancy challenge",
+      "japanese": "やや危険な判定",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A high-risk challenge",
+      "japanese": "非常に難しい判定",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A low-risk challenge",
+      "japanese": "容易な判定",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A matter of luck: a long shot...but you might win.",
+      "japanese": "望みは薄いものの、成功の可能性はあります。",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A matter of luck: a sure thing. Or is it?",
+      "japanese": "ほぼ確実に成功するでしょう。……本当に？",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A matter of luck: how can you fail?",
+      "japanese": "運次第とはいえ、まず失敗しないでしょう。",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A matter of luck: it could go either way.",
+      "japanese": "運次第で、成功するか失敗するかは五分五分です。",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A matter of luck: pretty good odds.",
+      "japanese": "運次第ですが、成功する見込みは十分あります。",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A matter of luck: the odds are against you here.",
+      "japanese": "運次第ですが、成功は難しいでしょう。",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A matter of luck: the odds are strongly against you here.",
+      "japanese": "運次第ですが、かなり分が悪そうです。",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A modest challenge",
+      "japanese": "成功しやすい判定",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A straightforward challenge",
+      "japanese": "ほぼ確実な判定",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A tough challenge",
+      "japanese": "難しい判定",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A very chancy challenge",
+      "japanese": "成否が読めない判定",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "A very modest challenge",
+      "japanese": "かなり成功しやすい判定",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTextFor",
+      "english": "An almost impossible challenge",
+      "japanese": "ほぼ不可能な判定",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTooltip",
+      "english": " quality gives you a ",
+      "japanese": "」による成功率は",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTooltip",
+      "english": "% chance of success",
+      "japanese": "％",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.ChallengeIcon",
+      "method": "ChallengeTooltip",
+      "english": "Your ",
+      "japanese": "「",
+      "category": "ChallengeIcon"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.StoryletEnd",
+      "method": ".ctor",
+      "english": "Continue...",
+      "japanese": "続ける",
+      "category": "StoryletEnd"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.StoryletEnd",
+      "method": "CreateContinueButton",
+      "english": "Close Gazetteer",
+      "japanese": "航海日誌を閉じる",
+      "category": "StoryletEnd"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.StoryletEnd",
+      "method": "CreateContinueButton",
+      "english": "Continue...",
+      "japanese": "続ける",
+      "category": "StoryletEnd"
+    },
+    {
+      "assembly": "Sunless.Game.dll",
+      "type": "Sunless.Game.UI.Storylet.StoryletIn",
+      "method": ".ctor",
+      "english": "Perhaps Not",
+      "japanese": "やめておく",
+      "category": "StoryletIn"
+    }
+  ]
+}

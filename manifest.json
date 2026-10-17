@@ -1,0 +1,85 @@
+{
+  "format": "sunless-sea-ja-patch-only-v1",
+  "release": "SunlessSea_Japanese_Retranslation_PatchOnly_K26_20261017",
+  "requires_original_english_game_files": true,
+  "unofficial": true,
+  "contains_original_game_binaries_or_JSON_trees": false,
+  "base_game": "Steam macOS Sunless Sea from 2026-10-16",
+  "created": "2026-10-17T16:24:20.642894+09:00",
+  "files": {
+    "encyclopaedia/Associations.json": {
+      "source_sha256": "87c477d97ba906728c9466f5156e1d210b362d1ddab75c436f39676f4609f126",
+      "target_canonical_json_sha256": "e2c35953970425405632e0179b0eabdc112898c314f310d270f3ae89d18d9b47",
+      "changed_text_fields": 20,
+      "top_level_records": 1
+    },
+    "encyclopaedia/CombatAttacks.json": {
+      "source_sha256": "98a9536423f4162408a9c658c8d7819d24e6db7021a5e574b1cffe651aafbc57",
+      "target_canonical_json_sha256": "619d976b5ed9073efb0e2733ecdb3511c8c99c9c2b599bd82ab15daefd471d1d",
+      "changed_text_fields": 7,
+      "top_level_records": 80
+    },
+    "encyclopaedia/CombatItems.json": {
+      "source_sha256": "1137e6f235c10b688d96331004599524b5e60c04eda97a72031f73d4b2bf13f1",
+      "target_canonical_json_sha256": "72abbf79000688c3d416f9204baedddef6d3d82f96c64c9dcdf4d00d64d01aed",
+      "changed_text_fields": 8,
+      "top_level_records": 11
+    },
+    "encyclopaedia/SpawnedEntities.json": {
+      "source_sha256": "1f7841cd3b5eba42cb4a030d5d1a4457480adc17aa4fa3650839bc88bb6674b6",
+      "target_canonical_json_sha256": "e49bf4fae831492f73d57003491ede643dc21539d70afc2e5d01a4a3a461f8d3",
+      "changed_text_fields": 50,
+      "top_level_records": 50
+    },
+    "encyclopaedia/Tutorials.json": {
+      "source_sha256": "77d2dc45092a0dac4efbb2e7afbe1b7b5661fa4bd39ad0ca6874607ae7b80339",
+      "target_canonical_json_sha256": "4b8429e6f90e80d1dfbdea8271147dedc23257ef4c47d01a02c0e984da2990c0",
+      "changed_text_fields": 68,
+      "top_level_records": 34
+    },
+    "entities/areas.json": {
+      "source_sha256": "2cb92410d31cb316e219fed41a8e114848b74e7aad053b82d8138e06099ebf61",
+      "target_canonical_json_sha256": "689a3a8a4631b08ea553f9df8296ae87a1555ade796c6832074482d0990c43fb",
+      "changed_text_fields": 208,
+      "top_level_records": 81
+    },
+    "entities/events.json": {
+      "source_sha256": "619868d9a2dff6b71c71f359397cc05ef87a57da09caf7d00c07c1cf50e52f91",
+      "target_canonical_json_sha256": "7124fbd6dc6c4aca67204d5a30c6e64d5298e7cf97d143eb899740cc41c21e82",
+      "changed_text_fields": 24882,
+      "top_level_records": 874
+    },
+    "entities/exchanges.json": {
+      "source_sha256": "add8bdaee9df8acf401f1649cb94fc14ad5eda8f931f5967426921c401e376ae",
+      "target_canonical_json_sha256": "73d853e9e2d9eb1897c03249ac7cf9e6ed082be557a8790216f9a48ac27debf2",
+      "changed_text_fields": 156,
+      "top_level_records": 31
+    },
+    "entities/qualities.json": {
+      "source_sha256": "26f127b893c7a5bbab61e8898a66f41bbd45b786faa7c2f619573781d5b9ccd2",
+      "target_canonical_json_sha256": "e514c01cf815f0dbccf5f408f1c2d85d3a208a7672cde1f91d09f7865990b3fa",
+      "changed_text_fields": 2340,
+      "top_level_records": 957
+    },
+    "geography/Tiles.json": {
+      "source_sha256": "dd1a71911fcec8de515ec5d1b60d4d1be79b4f1c4a7d61a2f0f7f3af313d7e5e",
+      "target_canonical_json_sha256": "3e201983242e4d99ed3e9dc2cbce909f30ad6609cfb0a5b06066d5bcf06edca0",
+      "changed_text_fields": 341,
+      "top_level_records": 40
+    }
+  },
+  "ui": {
+    "original_assembly_sha256": {
+      "Failbetter.Core.dll": "38086ba0c8c86be0c9de596048fe64d19d2a3b987a4ed056300225dfa9010a24",
+      "Sunless.Game.dll": "961c443303abec73337589f0a214f286b9bb2c8f4d48e2c734f8a1c2a0b5e535"
+    },
+    "expected_patched_assembly_sha256": {
+      "Failbetter.Core.dll": "d9c2cc3c7243691f3e54e6629eab9320b7d95f38f232c7ad61e4c9e379c82029",
+      "Sunless.Game.dll": "aba424f8923553a462f5c781fd265ed5f85cda066a25af5f1a3d3d85f8c020b0"
+    },
+    "translation_rules": 529,
+    "translated_managed_string_instructions": 552,
+    "no_compiled_game_dll_included": true
+  },
+  "changed_text_fields": 28080
+}

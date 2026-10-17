@@ -1,0 +1,87 @@
+[
+  {
+    "path": "LICENSE-CODE.txt",
+    "sha256": "7865755aa9018f43c04b4634426ab3ede0943aaa533f10d19d7e3bcc10576b2f",
+    "bytes": 1463
+  },
+  {
+    "path": "README_ja.md",
+    "sha256": "a9c4e75697790465aced64e37b594b31cd5319f2d7417c6567b85a2a072679ad",
+    "bytes": 7445
+  },
+  {
+    "path": "apply_text_patch.py",
+    "sha256": "e5de083bc24dcdc616874e544975c549bf154ec20c8d596646e03068c8c496a7",
+    "bytes": 2818
+  },
+  {
+    "path": "build_ui_patch.py",
+    "sha256": "c9b728ab44d3f7512891e1c85f2576ecb47df37a619d5507fef87273a602b530",
+    "bytes": 2975
+  },
+  {
+    "path": "delta/encyclopaedia/Associations.json",
+    "sha256": "c001ee654c1aa0db19d033ecc5a03b886f6db2e9cb5e62dc203b9263069ff833",
+    "bytes": 2891
+  },
+  {
+    "path": "delta/encyclopaedia/CombatAttacks.json",
+    "sha256": "39cf9c2bfaae7fde37a92f0a70b772a32320e3d0dfb4f5c220b390be6edadf2d",
+    "bytes": 832
+  },
+  {
+    "path": "delta/encyclopaedia/CombatItems.json",
+    "sha256": "61ff38f2b6a2aa69e6d81a545d1b687e3c0cef23cce3967084c0b229041776c9",
+    "bytes": 1076
+  },
+  {
+    "path": "delta/encyclopaedia/SpawnedEntities.json",
+    "sha256": "742a81dcf0d3799f8061ab112487078de23c960276510fd4cc77724b906f42bc",
+    "bytes": 3887
+  },
+  {
+    "path": "delta/encyclopaedia/Tutorials.json",
+    "sha256": "0a7e33c4ce83b9e1bfdbb75b35735406523502c85e424998920664db4d985f99",
+    "bytes": 10211
+  },
+  {
+    "path": "delta/entities/areas.json",
+    "sha256": "66a20a02a78dbdf87bcf1244b5f21f189708d4299abd5d45ace930ee03e1156f",
+    "bytes": 18354
+  },
+  {
+    "path": "delta/entities/events.json",
+    "sha256": "0815c350840e36c9936df3ef246e03ea402c2cbd744a7f13cd69e6e6ac0c1443",
+    "bytes": 6055834
+  },
+  {
+    "path": "delta/entities/exchanges.json",
+    "sha256": "4c1cf32cdb1232bd224a268b5bbf15c7fa216492f14b131ba18362c73c2eb3e5",
+    "bytes": 18148
+  },
+  {
+    "path": "delta/entities/qualities.json",
+    "sha256": "d2af3a762a6043d69f590e472344167dd06d8806296824494b1010581d82bff0",
+    "bytes": 360114
+  },
+  {
+    "path": "delta/geography/Tiles.json",
+    "sha256": "e209fd8adf6cd64a2ee5f34364fb2654a20c17d74f8ec14e595f13cb2e77c0d6",
+    "bytes": 46093
+  },
+  {
+    "path": "manifest.json",
+    "sha256": "b20abe44adc0a5e9dc15888a6e9e4842bf499c2131828b75ff06e55a41c3c7f0",
+    "bytes": 4049
+  },
+  {
+    "path": "ui/SunlessUiILPatcher.cs",
+    "sha256": "c74af214e79115ef5da22bdc229345f46c4a5867efcef19a37a15018b279c99d",
+    "bytes": 8330
+  },
+  {
+    "path": "ui/ui_rules.json",
+    "sha256": "772f7ee123e38cf923eda24a9e8e2c2d8305e3ff5f39feb39c508bdeaa26f646",
+    "bytes": 153319
+  }
+]
