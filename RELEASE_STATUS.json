@@ -1,0 +1,22 @@
+{
+  "release_tag": "v2026.10.17-k26.1",
+  "checked_at_utc": "2026-10-17T09:45:44.111335+00:00",
+  "price_display": {
+    "status": "resolved_in_current_mac_installation",
+    "evidence_type": "maintainer_gameplay_confirmation",
+    "reported_date_jst": "2026-10-17"
+  },
+  "installed_payload_comparison": {
+    "text_json_files": 10,
+    "ui_assembly_files": 2,
+    "all_matched": true,
+    "evidence_type": "original_release_manifest_hash_and_json_comparison"
+  },
+  "runtime_equivalent_to": "v2026.10.17-k26",
+  "translation_changes": 28080,
+  "ui_rules": 529,
+  "ui_display_replacements": 552,
+  "full_game_and_commerce_regression": "not_completed",
+  "windows_ui": "not_verified",
+  "game_binary_or_font_in_archive": false
+}

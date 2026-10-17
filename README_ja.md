@@ -1,4 +1,4 @@
-# Sunless Sea 日本語再翻訳MOD — K26 差分配布版（非公式）
+# Sunless Sea 日本語再翻訳MOD — K26.1 差分配布版（非公式）
 
 **2026年10月17日／無償のファン制作・実機動作検証中**
 
@@ -6,16 +6,22 @@
 > 本プロジェクトは **非公式のファン翻訳** であり、Failbetter Gamesの制作・販売・承認を受けていません。
 > 公式作品: https://www.failbettergames.com/games/sunless-sea
 
-K26は、2026年10月16日にMacで動作確認を始めた「表示・内部識別子分離版（K25）」と**同一の翻訳内容**を、購入済みゲームへの**差分適用パッチ**として配布したものです。旧版に含まれた**ゲームの元JSONファイル、ゲームDLLの全体、セーブデータは入っていません**。
+K26.1は、K26の説明と配布記録を更新した版です。翻訳・UIルール・変換プログラムの内容はK26と同一で、2026年10月16日にMacへ導入した「表示・内部識別子分離版（K25）」を購入済みゲームへの**差分適用パッチ**として配布します。旧版に含まれた**ゲームの元JSONファイル、ゲームDLLの全体、セーブデータは入っていません**。
 
 **重要な仕様**
 - 物語・港・地名・商店など、実際に表示される文章を日本語化。英語原文と異なるテキスト差分は28,080箇所。
 - Mac専用UI（任意）：529種類の置換ルールでゲーム内552箇所の表示文字列を日本語化。元の実行ファイルは同梱しません。
 - **BUY / SELL、売値・買値、通貨の内部名、所持金、取引・数量・売買ボタンの処理、重要な操作名・ホットキーの識別子は英語原文のまま**にします。
 - 一部の船装備スロット等は内部の名前解決に使われるため英語のままです。意図的な例外です。
-- 2026年10月16日に当該Macで、英語ゲーム原本の入力からK25の10ファイルを**完全再現**する検査に通過。
+- 英語ゲーム原本からK25の本文10ファイルを**完全再現**する検査に通過。2026年10月17日には、現在使用中のMac実機版との本文10ファイル・UI 2ファイルの一致も照合しました。
 - すべての港・ルート・ゲーム内イベント・取引分岐・ゲームの更新に対応する保証はありません。
-- 商店で「£999999」と表示される問題は数値データ上書きではなく、**現在も原因調査中**です。価格・売買ロジックは変更していません。
+- 旧版で発生した異常な価格表示（`9999` / `999999`）は、**2026年10月17日に現在のMac実機版で解消しているとの確認を受領**しました。公開パッチの生成物も、その実機版と一致しています。全商店・全取引分岐のテストは継続中です。
+
+## 必要な環境
+
+- 本文の生成には **Python 3** が必要です。ターミナルで `python3 --version` が実行できることを確認してください。
+- 任意のMac UI生成には **Mono（`mono` / `mcs`）とMono.Cecil** が必要です。本文だけを使う場合、Monoは不要です。
+- UI手順の `brew install mono` は、Homebrewが導入済みのMacを前提としています。
 
 ## 1. 日本語本文を生成する（ゲーム本体は変更しません）
 
@@ -29,10 +35,10 @@ Sunless Seaを合法的に所有し、ゲームを一度起動して英語のJSO
 cd "<解凍先>"
 python3 apply_text_patch.py \
   --game-data "$HOME/Library/Application Support/com.failbettergames.sunlesssea" \
-  --output "$HOME/Downloads/SunlessSea_JA_K26_build"
+  --output "$HOME/Downloads/SunlessSea_JA_K26_1_build"
 ```
 
-`~/Downloads/SunlessSea_JA_K26_build/japanese_translation/` が生成されます。この工程では、ゲーム・元のMOD・セーブファイルを変更しません。
+`~/Downloads/SunlessSea_JA_K26_1_build/japanese_translation/` が生成されます。この工程では、ゲーム・元のMOD・セーブファイルを変更しません。
 
 元のJSONのSHA256が一致しない場合、**インストール済みのゲームが対象バージョンではありません**。エラーを無視して強制適用しないでください。
 
@@ -55,7 +61,7 @@ brew install mono
 
 python3 build_ui_patch.py \
   --managed "$HOME/Library/Application Support/Steam/steamapps/common/SunlessSea/Sunless Sea.app/Contents/Resources/Data/Managed" \
-  --output "$HOME/Downloads/SunlessSea_JA_K26_UI_stage"
+  --output "$HOME/Downloads/SunlessSea_JA_K26_1_UI_stage"
 ```
 
 このコマンドはゲームアプリとは**別の場所**に検証済みDLL候補を生成します。実行中のゲームは一切変更しません。元のSteam版とDLLのSHA256が違えば、破損やバージョン不一致を防ぐため処理を拒否します。
@@ -79,6 +85,8 @@ Windows版のUI DLLパッチ、別のゲームバージョン、Steam以外の�
 - `ui/ui_rules.json` : UI置換のためのルールと日本語文。
 - `ui/SunlessUiILPatcher.cs` / `build_ui_patch.py` : 所有ゲームの元DLLから修正版をビルドするソース。
 - `CHECKSUMS.json` : 配布ファイル各自のSHA256。
+- `RELEASE_STATUS.json` : 現在のMac実機版との照合結果と、価格表示について確認できた範囲。
+- `CHANGELOG.md` : 配布版の変更履歴。
 
 問題があれば、ゲームを終了し、旧MOD・Steamゲームアプリ全体をバックアップから戻します。**セーブデータは原則として復元しません**（プレイ進行を上書きしないため）。セーブが破損した場合だけ、実際の状態とバックアップを比較してから手動復元してください。
 
