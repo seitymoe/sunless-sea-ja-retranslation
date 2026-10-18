@@ -1,8 +1,8 @@
 {
-  "release_tag": "v2026.10.19-k26.3-rc1",
+  "release_tag": "v2026.10.19-k26.3-rc2",
   "checked_at_utc": "2026-10-18T22:17:14.485637+00:00",
   "price_display": {
-    "status": "resolved_in_current_mac_installation",
+    "status": "owner_reported_resolved_2026-10-17_but_K26_3_not_gameplay_verified",
     "evidence_type": "maintainer_gameplay_confirmation",
     "reported_date_jst": "2026-10-17"
   },
