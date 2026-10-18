@@ -1,0 +1,13 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+# Never commit proprietary game binaries or personal saves
+*.dll
+*.exe
+*.assets
+*.bundle
+*.save
+Player.log
+Autosave*.json

@@ -1,0 +1,22 @@
+name: Release regression gates
+on:
+  push:
+    branches: [main, "pm/**"]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-patch-only:
+    name: Check translation, unsafe UI IDs, and installer integrity
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Offline regression suite
+        run: python -m unittest discover -s tests -v
+      - name: Compile patch builders
+        run: python -m py_compile apply_text_patch.py build_ui_patch.py
