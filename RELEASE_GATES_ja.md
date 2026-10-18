@@ -1,7 +1,7 @@
 # Sunless Sea JA — PM公開ゲート
 
 ## 現状
-- K26.1公開テスト版: v2026.10.17-k26.1（GitHub Releasesで公開済）
+- 最新公開テスト版: v2026.10.19-k26.2（GitHub Releases・prerelease）。K26.1は前版。
 - 差分方式: 所有ゲームの英語データから日本語ファイルを再構築し、元ゲームデータやDLLを再配布しない
 - 翻訳変更28,080か所 / 10 JSON、任意Mac UIは529ルール・552命令
 - 既知問題: 航海中のQEffectOnEnterでNullReferenceExceptionが稀に発生。原因・MODとの因果は未確定
@@ -42,7 +42,7 @@
 
 内部識別子を壊してまで全UIの英語を除去しない。
 
-## 2026-10-19 K26.2参照名保護の追加確認
+## 2026-10-19 K26.2参照名保護の追加確認（公開テスト版）
 
 - 所有者の`resources.assets`内にあるMonoBehaviourと`globalgamemanagers.assets`のMonoScriptを照合。QEffectOnEnter/Exit/OverTimeの6参照すべてで、内部英語名と日本語Nameの不一致があった。
 - そのうち`Almost Safe`（111067）・`Terror`（102025）・`Hull`（102029）の`Name`だけ英語原文を保持する修正候補を用意。差分28,077件。

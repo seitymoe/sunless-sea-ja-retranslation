@@ -1,8 +1,8 @@
 [
   {
     "path": "CHANGELOG.md",
-    "sha256": "6be1c4d68f142b5643a94f0f11aa310d94bcf897f5801a72c26a1d6c6876c10a",
-    "bytes": 2768
+    "sha256": "2d6dc6907e4888556a6b894a24a1b2c7149a0d99c697ddb7cb5c5f99f0f46fa6",
+    "bytes": 2774
   },
   {
     "path": "LICENSE-CODE.txt",
@@ -11,18 +11,18 @@
   },
   {
     "path": "README.md",
-    "sha256": "4af0114067bbc1e1a2449e253393a127f4d7f1bc55d27dfbaafe305e02d0560e",
-    "bytes": 2865
+    "sha256": "fedf022eb1480f6ae925bf271e4dd60ce1910882ba50b292d8b44943a54d6f7b",
+    "bytes": 2888
   },
   {
     "path": "README_ja.md",
-    "sha256": "883961db5a53961a56f808a40946181e4bcf7cc113e6c0469be761d17877f8ae",
-    "bytes": 9684
+    "sha256": "a0fcc53f8cb61c3f1ebc24cd15b4d1b18e54d936187ae31517ab67fbc249c771",
+    "bytes": 9700
   },
   {
     "path": "RELEASE_STATUS.json",
-    "sha256": "c60a49291f7bd2a02fd690c9e7e90838edb562ec525d7710f98e757930b64ace",
-    "bytes": 1036
+    "sha256": "1d316a267b59971b7dbbac944de2092604329559a705ffa1f652ee67024d2272",
+    "bytes": 1001
   },
   {
     "path": "apply_text_patch.py",
@@ -86,8 +86,8 @@
   },
   {
     "path": "manifest.json",
-    "sha256": "2a5c5561fec3e2adcbc3f0b36ca916f03c58a47f717bf723eba7cdca833908ea",
-    "bytes": 4139
+    "sha256": "ac58f491ba744155c71638258e3976ca3713eaf1474d2ddda0082c3466cc23fe",
+    "bytes": 4099
   },
   {
     "path": "ui/SunlessUiILPatcher.cs",

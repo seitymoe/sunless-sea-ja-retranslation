@@ -1,6 +1,6 @@
 {
-  "release_tag": "K26.2_CANDIDATE_NOT_YET_PUBLISHED",
-  "checked_at_utc": "2026-10-18T22:13:48.124252+00:00",
+  "release_tag": "v2026.10.19-k26.2",
+  "checked_at_utc": "2026-10-18T22:17:14.485637+00:00",
   "price_display": {
     "status": "resolved_in_current_mac_installation",
     "evidence_type": "maintainer_gameplay_confirmation",
@@ -12,7 +12,7 @@
     "all_matched": true,
     "evidence_type": "original_release_manifest_hash_and_json_comparison"
   },
-  "runtime_equivalent_to": "K26.2 candidate: 3 internal Quality.Name identities preserved",
+  "runtime_equivalent_to": "v2026.10.19-k26.2",
   "translation_changes": 28077,
   "ui_rules": 529,
   "ui_display_replacements": 552,
@@ -27,5 +27,6 @@
     111067
   ],
   "runtime_causation_proven": false,
-  "runtime_AB_test_completed": false
+  "runtime_AB_test_completed": false,
+  "is_prerelease": true
 }

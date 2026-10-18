@@ -82,5 +82,5 @@
     "no_compiled_game_dll_included": true
   },
   "changed_text_fields": 28077,
-  "runtime_equivalent_to": "v2026.10.19-k26.2 (candidate; runtime A/B not yet tested)"
+  "runtime_equivalent_to": "v2026.10.19-k26.2"
 }

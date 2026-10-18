@@ -1,4 +1,4 @@
-# K26.2 QEffect 参照名保護（2026-10-19、公開候補）
+# K26.2 QEffect 参照名保護（2026-10-19、公開テスト版）
 
 - ゲーム所有者MacのUnityアセットをMonoScript参照と原文品質名から読み取り専用解析。
 - `QEffectOnEnter` / `QEffectOnExit` / `QEffectOverTime` の6参照を検出（`Almost Safe` / `Terror` / `Hull`）。
