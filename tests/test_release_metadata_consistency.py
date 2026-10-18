@@ -16,10 +16,11 @@ class ReleaseMetadataTests(unittest.TestCase):
         release=json.loads((ROOT/"RELEASE_STATUS.json").read_text())
         self.assertIn("not_gameplay_verified",release["price_display"]["status"])
         self.assertFalse(release["runtime_causation_proven"])
-    def test_changelog_states_six_name_only_fix(self):
+    def test_changelog_states_seven_name_only_fix(self):
         release=json.loads((ROOT/"RELEASE_STATUS.json").read_text())
         self.assertEqual(sorted(release["protected_Dock_name_quality_ids"]),[231,102969,108290,108651])
         self.assertEqual(sorted(release["protected_QEffect_quality_ids"]),[102025,102029,111067])
+        self.assertEqual(len(set(release["protected_Dock_name_quality_ids"]) | set(release["protected_QEffect_quality_ids"])),7)
     def test_a_stranger_dock_quality_keeps_original_internal_name(self):
         qualities=json.loads((ROOT/"delta/entities/qualities.json").read_text())
         self.assertNotIn([104,"Name"], [p for p,v in qualities])
