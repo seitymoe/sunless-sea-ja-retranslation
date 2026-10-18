@@ -65,7 +65,7 @@ def analyze(original, localized, references):
             raise ValueError("Reference at index " + str(position) + " is not an object")
         classname = ref.get("component") or ref.get("class") or "QEffectOnEnter"
         name = ref.get("QualityName", ref.get("quality_name"))
-        if classname != "QEffectOnEnter":
+        if classname not in {"QEffectOnEnter", "QEffectOnExit", "QEffectOverTime"}:
             ignored.append({"reference_index": position, "component": classname})
             continue
         if not isinstance(name, str) or not name:

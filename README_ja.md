@@ -1,12 +1,12 @@
-# Sunless Sea 日本語再翻訳MOD — K26.1 差分配布版（非公式）
+# Sunless Sea 日本語再翻訳MOD — K26.2 公開テスト版（非公式）（非公式）
 
-**2026年10月17日／無償のファン制作・実機動作検証中**
+**2026年10月19日／無償のファン制作・実機動作検証中**
 
 > Sunless Sea / Fallen London は © / ™ Failbetter Games Limited の作品です。
 > 本プロジェクトは **非公式のファン翻訳** であり、Failbetter Gamesの制作・販売・承認を受けていません。
 > 公式作品: https://www.failbettergames.com/games/sunless-sea
 
-K26.1は、K26の説明と配布記録を更新した版です。翻訳・UIルール・変換プログラムの内容はK26と同一で、2026年10月16日にMacへ導入した「表示・内部識別子分離版（K25）」を購入済みゲームへの**差分適用パッチ**として配布します。旧版に含まれた**ゲームの元JSONファイル、ゲームDLLの全体、セーブデータは入っていません**。
+K26.2ではゲーム内Unityスクリプトが英語品質名で検索する参照の保護を追加しました。従来のK26/K26.1と同様、2026年10月16日にMacへ導入した「表示・内部識別子分離版（K25）」を購入済みゲームへの**差分適用パッチ**として配布します。旧版に含まれた**ゲームの元JSONファイル、ゲームDLLの全体、セーブデータは入っていません**。
 
 **重要な仕様**
 - 物語・港・地名・商店など、実際に表示される文章を日本語化。英語原文と異なるテキスト差分は28,080箇所。
@@ -35,10 +35,10 @@ Sunless Seaを合法的に所有し、ゲームを一度起動して英語のJSO
 cd "<解凍先>"
 python3 apply_text_patch.py \
   --game-data "$HOME/Library/Application Support/com.failbettergames.sunlesssea" \
-  --output "$HOME/Downloads/SunlessSea_JA_K26_1_build"
+  --output "$HOME/Downloads/SunlessSea_JA_K26_2_build"
 ```
 
-`~/Downloads/SunlessSea_JA_K26_1_build/japanese_translation/` が生成されます。この工程では、ゲーム・元のMOD・セーブファイルを変更しません。
+`~/Downloads/SunlessSea_JA_K26_2_build/japanese_translation/` が生成されます。この工程では、ゲーム・元のMOD・セーブファイルを変更しません。
 
 元のJSONのSHA256が一致しない場合、**インストール済みのゲームが対象バージョンではありません**。エラーを無視して強制適用しないでください。
 
@@ -61,7 +61,7 @@ brew install mono
 
 python3 build_ui_patch.py \
   --managed "$HOME/Library/Application Support/Steam/steamapps/common/SunlessSea/Sunless Sea.app/Contents/Resources/Data/Managed" \
-  --output "$HOME/Downloads/SunlessSea_JA_K26_1_UI_stage"
+  --output "$HOME/Downloads/SunlessSea_JA_K26_2_UI_stage"
 ```
 
 このコマンドはゲームアプリとは**別の場所**に検証済みDLL候補を生成します。実行中のゲームは一切変更しません。元のSteam版とDLLのSHA256が違えば、破損やバージョン不一致を防ぐため処理を拒否します。
@@ -99,3 +99,17 @@ Windows版のUI DLLパッチ、別のゲームバージョン、Steam以外の�
 - ファン制作に関する説明: https://www.failbettergames.com/fan-project-guidelines
 
 実プレイで誤訳や日本語の不自然さを見つけた場合は、港・イベント名・再現手順・スクリーンショットを添えて報告してください。
+
+## K26.2 — Unity QEffect の参照名保護（2026-10-19）
+
+所有者MacのUnity `globalgamemanagers.assets` と `resources.assets` を読み取り専用で照合し、`QEffectOnEnter`／`QEffectOnExit`／`QEffectOverTime` が次の英語品質名を内部的に参照することを確認しました。
+
+- 品質ID **111067**: `Almost Safe`（安全海域）
+- 品質ID **102025**: `Terror`（恐怖）
+- 品質ID **102029**: `Hull`（船体）
+
+日本語差分から、これら3件の **`Name` の翻訳だけ** を取り除いて英語原文の内部参照名を維持します。`Description` などの日本語説明、原文のID／金額／所持品／取引処理には触れません。
+
+**この診断は静的証拠です。** 元DLL・新MODによる同一セーブでの比較・再発防止の実機確認は未完了のため、原因と修復を断定せず、引き続きテスト版として扱います。MacのSteamゲームが起動中の間、ゲーム本体・セーブ・既存MODを変更してはいけません。Windows版のUIパッチも未検証です。
+
+前のK26.1に代わり、この [K26.2公開テスト版](https://github.com/seitymoe/sunless-sea-ja-retranslation/releases/tag/v2026.10.19-k26.2) を配布します。ただしゲーム内の全経路・全商店の実機確認は未完了です。
