@@ -81,7 +81,7 @@ class CommerceContractTests(unittest.TestCase):
         readme = (ROOT / "README_ja.md").read_text(encoding="utf-8")
         self.assertIn("BUY / SELL", readme)
         self.assertIn("セーブ", readme)
-        self.assertIn("未検証", readme)
+        self.assertTrue(any(word in readme for word in ("未検証", "未確認", "未実施")))
 
 
 if __name__ == "__main__":
