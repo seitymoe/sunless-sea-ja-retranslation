@@ -63,6 +63,17 @@ class QEffectIdentityTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             analyze(self.original, self.original, [])
 
+    def test_over_time_and_exit_references_are_checked_too(self):
+        localized = [dict(row) for row in self.original]
+        localized[0]["Name"] = "南方群島"
+        refs = [
+            {"component": "QEffectOnExit", "QualityName": "Southern Archipelago"},
+            {"component": "QEffectOverTime", "QualityName": "Southern Archipelago"},
+        ]
+        report = analyze(self.original, localized, refs)
+        self.assertEqual(report["at_risk_reference_count"], 2)
+        self.assertEqual({r["quality_id"] for r in report["at_risk"]}, {101})
+
     def test_non_qeffect_component_is_not_mistaken_for_scene_reference(self):
         refs = self.reference + [{"component": "OtherBehaviour", "QualityName": "Open Sea"}]
         result = analyze(self.original, self.original, refs)

@@ -56,3 +56,22 @@ python3 tools/audit_qeffect_names.py \
 5. 根本原因不明のまま「FIXED」や「完璧」として安定版リリースしない。
 
 コードとテストは公開パッチZIPに含むゲームファイルではなく、開発用の安全性診断です。
+
+
+## Unity TypeTreeのない原本での正規抽出（2026-10-19追加）
+
+本ゲームの所有者Macでは`resources.assets`のMonoBehaviour 2,502件のうち2,478件はUnityPy標準の`read_typetree()`で読み取れませんでした。そこでゲームの **`globalgamemanagers.assets`からMonoScriptのクラス名とPathIDを取得し、各MonoBehaviourの`m_Script`ポインタからQEffectクラスを厳密に識別**する読取専用ツールを追加しました。
+
+以下を**所有ゲームのファイルを読み取り専用**で実行します。リポジトリや公開ZIPにゲームアセットを含めないこと。
+
+```bash
+python3 -m venv .qeffect-venv
+.qeffect-venv/bin/python -m pip install UnityPy
+.qeffect-venv/bin/python tools/extract_qeffect_refs.py   --game-data "<Steam版 Sunless Sea.app>/Contents/Resources/Data"   --original "<所有ゲームの英語データ>/entities/qualities.json"   --asset "<Steam版 Sunless Sea.app>/Contents/Resources/Data/resources.assets"   --output /tmp/sunless-qeffect-references.json
+
+python3 tools/audit_qeffect_names.py   --original "<所有ゲームの英語データ>/entities/qualities.json"   --localized "<別フォルダで生成した日本語MOD>/entities/qualities.json"   --references /tmp/sunless-qeffect-references.json   --output /tmp/sunless-qeffect-audit.json
+```
+
+- 抽出側は指定されたUnity資産内のQEffectOnEnter / QEffectOnExit / QEffectOverTimeクラスだけに限定し、元の英語品質名と完全に一致する長さ付き文字列を報告する。クラス未特定・名前複数候補・空の参照は未検証として報告する。
+- 本人Macの`resources.assets`では、SafeZoneのAlmost Safe（入退出2件）、TerrorCircleLarge/TheEyeのTerror（2件）、Vortex/AdamsWayBurnのHull（2件）が抽出された。対象品質ID 111067 / 102025 / 102029 のName差分のみ削除する最小修正候補を別ブランチに実装。
+- この抽出は**資産に含まれるクラスの静的な照合**であり、ゲーム実行時のnull根本原因や全アセット網羅、セーブの再現テストを保証しない。現行ゲームが起動している間のMOD・セーブ・DLL変更は禁止。

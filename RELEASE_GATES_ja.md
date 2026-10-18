@@ -42,6 +42,13 @@
 
 内部識別子を壊してまで全UIの英語を除去しない。
 
+## 2026-10-19 K26.2参照名保護の追加確認
+
+- 所有者の`resources.assets`内にあるMonoBehaviourと`globalgamemanagers.assets`のMonoScriptを照合。QEffectOnEnter/Exit/OverTimeの6参照すべてで、内部英語名と日本語Nameの不一致があった。
+- そのうち`Almost Safe`（111067）・`Terror`（102025）・`Hull`（102029）の`Name`だけ英語原文を保持する修正候補を用意。差分28,077件。
+- **ゲームは起動中のため、実セーブ/元アプリ/稼働中のaddonは未変更。** まだ同一セーブによる原本とのA/B試験がないので #2の根本原因確定・完全解決とはしない。
+- 今回の作業は既存のK26.1公開Asset SHAや過去のリリースに影響しない。新たなバージョンは独立リリース候補として審査する。
+
 ## 2026-10-19 PM検証済みの証拠と残作業
 
 - 公開テスト版: [v2026.10.17-k26.1](https://github.com/seitymoe/sunless-sea-ja-retranslation/releases/tag/v2026.10.17-k26.1)。GitHub Releaseは `prerelease=true`。
