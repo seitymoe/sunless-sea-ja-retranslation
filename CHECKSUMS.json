@@ -11,13 +11,13 @@
   },
   {
     "path": "README.md",
-    "sha256": "fedf022eb1480f6ae925bf271e4dd60ce1910882ba50b292d8b44943a54d6f7b",
-    "bytes": 2888
+    "sha256": "d92f1c501f2f17270fb9d5a4d1733cc4f439f41e1c50cce54e05b41f44712a46",
+    "bytes": 3443
   },
   {
     "path": "README_ja.md",
-    "sha256": "178d61a45b9c64e81b6062cce7b159f509111832d642a66cd5e945d8e97d6331",
-    "bytes": 11424
+    "sha256": "5dcd57e75d18fabda3d6e6da576d56ffc6a1e04b4fe86d85e96dd3379e59abd1",
+    "bytes": 12016
   },
   {
     "path": "RELEASE_STATUS.json",
