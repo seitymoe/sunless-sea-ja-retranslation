@@ -1,11 +1,13 @@
-# Sunless Sea 日本語再翻訳MOD — K26.3候補（まだ未公開・要実機検証）
+> **RC3はまだ公開・実ゲームに適用していないテスト候補です。** 正式版・全分岐確認済みではありません。購入済みの原作と完全バックアップが必要です。通常プレイで優先検証するのはUnity QEffectの `Almost Safe` / `Terror` / `Hull` の3件です。
 
-**K26.3で追加保護する内部品質名**: \`Addressed as\`（102969）、\`Memoirs: Quality of Lodgings\`（108290）、\`Memoirs: Your Past\`（108651）。
-ゲームの \`NavigationProvider.Dock\` が品質を英語名で検索するため、\`Name\` の原文を保護し、日本語の \`Description\` は維持します。
+# Sunless Sea 日本語再翻訳MOD — K26.3 RC3（非公開レビュー候補・要実機検証）
+
+**RC3で追加保護するエディタ専用の内部品質名（4件）**: \`Addressed as\`（102969）、\`Memoirs: Quality of Lodgings\`（108290）、\`Memoirs: Your Past\`（108651）、\`a stranger\`（231）。
+ゲームの \`NavigationProvider.Dock\` にある4件の英語名検索は、**EditorMode=true の分岐のみ**で実行されます。対応する品質の \`Name\` の原文だけを保護し、日本語の \`Description\` は維持します。これら4件は通常プレイのQEffect例外の原因と断定できません。
 
 **重要**: ゲーム内のコードにある \`Addressed As\` と、原文品質名 \`Addressed as\` は大文字・小文字が異なります。原作側でも完全一致しない可能性があり、今回の保護だけで正常動作を保証するものではありません。元のセーブを用いた実機検証が完了するまで正式版にしません。
 
-# Sunless Sea 日本語再翻訳MOD — K26.2 公開テスト版（非公式）
+## 参考：以前のK26.2公開テスト版の手順・履歴（以下はRC3公開済みの意味ではありません）
 
 **2026年10月19日／無償のファン制作・実機動作検証中**
 
