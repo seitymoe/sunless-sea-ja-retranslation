@@ -1,3 +1,11 @@
+# K26.3候補：港の内部参照名保護（2026-10-19）
+
+- 追加で3つの内部Quality.Nameを英語原文へ復元。Memoirs: Your Past / Memoirs: Quality of Lodgings / Addressed as
+- 原作ゲームの \`NavigationProvider.Dock\` にある名前検索と照合。2つの Memoirs の翻訳は参照失敗を起こし得ることを確認。
+- \`Addressed As\` は原作側の \`Addressed as\` と大文字小文字が違い、完全一致検索による既存問題の可能性が残る。
+- K26.2から変更するのは3つのNameのみ。元ゲームのID、数値、取引、その他の日本語、UIルールは維持。
+- 公開前テスト候補。実機でのLoad/Save・港・航海・商店の再検証は未完了。K26.2も所有者の実ゲームには未適用。
+
 # K26.2 QEffect 参照名保護（2026-10-19、公開テスト版）
 
 - ゲーム所有者MacのUnityアセットをMonoScript参照と原文品質名から読み取り専用解析。

@@ -73,7 +73,7 @@ class ReleaseStaticTests(unittest.TestCase):
                 self.assertNotIn(tuple(path), seen)
                 seen.add(tuple(path))
             n += len(patch)
-        self.assertEqual(n, 28077)
+        self.assertEqual(n, 28074)
         self.assertEqual(n, MANIFEST["changed_text_fields"])
 
     def test_ui_translates_only_safe_context(self):

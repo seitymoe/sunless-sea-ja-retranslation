@@ -36,7 +36,7 @@ class CommerceContractTests(unittest.TestCase):
         patches = json.loads((ROOT / "delta/entities/qualities.json").read_text(encoding="utf-8"))
         allowed = {"Name", "Description", "AvailableAt",
                    "LevelDescriptionText", "ChangeDescriptionText"}
-        self.assertEqual(len(patches), 2337)
+        self.assertEqual(len(patches), 2334)
         counts = collections.Counter()
         for path, value in patches:
             self.assertEqual(len(path), 2, path)
@@ -44,8 +44,8 @@ class CommerceContractTests(unittest.TestCase):
             self.assertIn(path[1], allowed, path)
             self.assertIsInstance(value, str)
             counts[path[1]] += 1
-        self.assertEqual(sum(counts.values()), 2337)
-        self.assertEqual(MANIFEST["files"]["entities/qualities.json"]["changed_text_fields"], 2337)
+        self.assertEqual(sum(counts.values()), 2334)
+        self.assertEqual(MANIFEST["files"]["entities/qualities.json"]["changed_text_fields"], 2334)
 
     def test_unity_scene_quality_names_remain_original_english(self):
         # Script-name references verified from owner-owned Unity resources.assets.
@@ -55,6 +55,9 @@ class CommerceContractTests(unittest.TestCase):
             (128, "Name"): (111067, "Almost Safe"),
             (374, "Name"): (102029, "Hull"),
             (776, "Name"): (102025, "Terror"),
+            (117, "Name"): (102969, "Addressed as"),
+            (477, "Name"): (108290, "Memoirs: Quality of Lodgings"),
+            (480, "Name"): (108651, "Memoirs: Your Past"),
         }
         patch = json.loads((ROOT / "delta/entities/qualities.json").read_text())
         paths = {tuple(path) for path, _ in patch}
@@ -90,7 +93,7 @@ class CommerceContractTests(unittest.TestCase):
         self.assertEqual(status["full_game_and_commerce_regression"], "not_completed")
         self.assertEqual(status["windows_ui"], "not_verified")
         self.assertFalse(status["game_binary_or_font_in_archive"])
-        self.assertEqual(status["translation_changes"], 28077)
+        self.assertEqual(status["translation_changes"], 28074)
         self.assertEqual(status["ui_rules"], 529)
         self.assertEqual(status["ui_display_replacements"], 552)
         readme = (ROOT / "README_ja.md").read_text(encoding="utf-8")
