@@ -35,7 +35,8 @@ class ReleaseStaticTests(unittest.TestCase):
         # CHECKSUMS covers distributed payloads, not CI/workspace PM documents.
         originals = {str(p.relative_to(ROOT)) for p in ROOT.rglob("*") if p.is_file()
                      and ".git" not in p.parts and ".github" not in p.parts
-                     and "tests" not in p.parts and "__pycache__" not in p.parts
+                     and "tests" not in p.parts and "tools" not in p.parts
+                     and "__pycache__" not in p.parts
                      and p.name not in {"CHECKSUMS.json", ".gitignore", "RELEASE_GATES_ja.md"}}
         self.assertTrue(originals.issubset(recorded), originals-recorded)
 
