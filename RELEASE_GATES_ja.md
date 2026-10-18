@@ -14,7 +14,7 @@
 - [x] ゲームDLL・セーブ・ゲーム本体JSONの再配布をしない
 - [x] 開発者Macで英語ゲーム原本から10/10翻訳JSONのSHAが一致
 - [x] 開発者Macで元DLLから任意UI552箇所の出力SHAが一致
-- [ ] GitHub Actionsの実行がgreen
+- [x] GitHub Actionsの実行がgreen（main: 64d90efef20d51cf7fd8f1c1cf521326d12aa43f、[2026-10-19成功実行](https://github.com/seitymoe/sunless-sea-ja-retranslation/actions/runs/39165689052)）
 
 ## ゲートB: 実機プレイ・ロールバック
 - [ ] 元のSteamアプリ、addon、全セーブが別ディレクトリでハッシュ付きバックアップ済み
@@ -31,7 +31,7 @@
 - [ ] READMEのOS、バージョン、SHA、必要なツール、復元手順を照合
 - [ ] Windowsなど未検証プラットフォームを明示
 - [ ] 公開Asset SHAと再現ビルドが一致
-- [ ] 全重大問題はGitHub Issueで追跡
+- [x] 全重大問題はGitHub Issueで追跡（[売買・ロード #1](https://github.com/seitymoe/sunless-sea-ja-retranslation/issues/1)、[QEffectOnEnter #2](https://github.com/seitymoe/sunless-sea-ja-retranslation/issues/2)、[文学的校正 #3](https://github.com/seitymoe/sunless-sea-ja-retranslation/issues/3)、[互換性 #4](https://github.com/seitymoe/sunless-sea-ja-retranslation/issues/4)）
 
 ## PM優先順位
 1. セーブ破損、進行不能、誤った取引金額
@@ -41,3 +41,20 @@
 5. 安定版判定。全ルート未テストなら「完全検証済み」とは称さない
 
 内部識別子を壊してまで全UIの英語を除去しない。
+
+## 2026-10-19 PM検証済みの証拠と残作業
+
+- 公開テスト版: [v2026.10.17-k26.1](https://github.com/seitymoe/sunless-sea-ja-retranslation/releases/tag/v2026.10.17-k26.1)。GitHub Releaseは `prerelease=true`。
+- GitHubによる公開AssetのSHA-256: `652996c05b0c2a24993a9fe483717a04b43e127751973259b4c7d84540f6d651`（`SunlessSea_Japanese_Retranslation_PatchOnly_K26_1_20261017.zip`、1,371,990 bytes）。
+- mainのActionsはgreen（2026-10-19 05:58 JST頃）。ただし**これは静的CIであり、ゲームでの価格・ロード・航海操作の正常性の保証ではない**。
+- 原文SHAを必要とする差分方式を保持。実ゲーム原文JSON・ゲームDLL・ゲームバイナリ・セーブデータは公開ZIPに同梱しない。
+- **公開Assetと手元の再現ビルドのSHA-256の直接照合**は、同一資産を独立に取得・ハッシュ検証するまで未完了。GitHub表示digestを記録したこと自体は照合完了ではない。
+- 優先順位: #1（単発BUY/SELLと即時残高、Continue/Load） → #2（QEffectOnEnter の原本比較） → #3（全訳の文体校正） → #4（Windows/導入互換性）。
+- 再現テストでは **商品名・価格表示・エコー残高・所持数をクリック前後で記録**。データ不一致や進行不能が1件でもあれば安定版への昇格を停止。
+- **ゲーム起動中のDLL・MOD・セーブの書換え禁止**。ロールバックは完全バックアップとSHA検証を確保してから、元のセーブを上書きしない形で行う。
+
+### 安定版昇格の判定
+
+**現在: 公開テスト版を維持し、安定版への昇格は保留。**
+
+オフラインテストが通ったことだけで Issue #1/#2 の完了や「全場面テスト済み」を宣言しない。各Issueに再現手順、スクリーンショット/ゲームログ、テスト開始・終了時のセーブSHA、変更差分、原本との差分を保存してから個別に閉じる。
