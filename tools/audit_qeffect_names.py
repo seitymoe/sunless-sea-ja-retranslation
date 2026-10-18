@@ -88,6 +88,9 @@ def analyze(original, localized, references):
         else:
             protected.append(result)
 
+    if not risks and not protected and not unresolved:
+        raise ValueError("Supplied records have no QEffectOnEnter references; result cannot be clean")
+
     return {
         "status": "POSSIBLE_SCENE_LOOKUP_BREAKAGE" if risks else
                   "NO_RENAMED_QEFFECT_REFERENCES_IN_SUPPLIED_INPUT",
