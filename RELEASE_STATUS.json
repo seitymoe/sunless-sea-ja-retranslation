@@ -1,5 +1,5 @@
 {
-  "release_tag": "v2026.10.19-k26.3-rc2",
+  "release_tag": "v2026.10.19-k26.3-rc3",
   "checked_at_utc": "2026-10-18T22:17:14.485637+00:00",
   "price_display": {
     "status": "owner_reported_resolved_2026-10-17_but_K26_3_not_gameplay_verified",
@@ -11,7 +11,7 @@
     "reason": "Owner Mac still running earlier K25 build; K26.2 and this candidate not installed at review time"
   },
   "runtime_equivalent_to": null,
-  "translation_changes": 28074,
+  "translation_changes": 28073,
   "ui_rules": 529,
   "ui_display_replacements": 552,
   "full_game_and_commerce_regression": "not_completed",
@@ -28,8 +28,11 @@
   "runtime_AB_test_completed": false,
   "is_prerelease": true,
   "protected_Dock_name_quality_ids": [
+    231,
     102969,
     108290,
     108651
-  ]
+  ],
+  "hardcoded_Dock_quality_name_lookups_checked": 4,
+  "upstream_Addressed_As_case_mismatch_unresolved": true
 }

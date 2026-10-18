@@ -1,8 +1,8 @@
 [
   {
     "path": "CHANGELOG.md",
-    "sha256": "3fa2bdc56f85f41b30b61dc7a415c487b66650d1f706a468bc9a7a2baf52f6ca",
-    "bytes": 3561
+    "sha256": "0ed0a9c434c2cccff83dcbadd3e5f95beeb2ae91c87955116a6a5d5bf8df3d7f",
+    "bytes": 4193
   },
   {
     "path": "LICENSE-CODE.txt",
@@ -16,13 +16,13 @@
   },
   {
     "path": "README_ja.md",
-    "sha256": "f6ebe772d12a8d5278d85510deb1c2e467dba4ceb5242195b91b2612cc39d8de",
-    "bytes": 10765
+    "sha256": "178d61a45b9c64e81b6062cce7b159f509111832d642a66cd5e945d8e97d6331",
+    "bytes": 11424
   },
   {
     "path": "RELEASE_STATUS.json",
-    "sha256": "62c2e751ad99732031a0817e5159823bf94e0dacc3c7d5842c579a43b088a301",
-    "bytes": 1084
+    "sha256": "ab5449360c50bf2e382d314d8849389c68665c116a1d1d5277a870fd3afbc893",
+    "bytes": 1203
   },
   {
     "path": "apply_text_patch.py",
@@ -76,8 +76,8 @@
   },
   {
     "path": "delta/entities/qualities.json",
-    "sha256": "a955158690a1f00493980a59b972945f3688c9b87b93ad48ee49b3bebbe7bad2",
-    "bytes": 359715
+    "sha256": "c2380d3b8d035542848a623b9e969a4af779d464e16e1935e839642c9f5c4eff",
+    "bytes": 359641
   },
   {
     "path": "delta/geography/Tiles.json",
@@ -86,8 +86,8 @@
   },
   {
     "path": "manifest.json",
-    "sha256": "06009b100881f1c1a16a1840f1ada528e6ef1b8d552f22134ff6a5bbce117001",
-    "bytes": 4094
+    "sha256": "ca4bae08114e74ab94248f87cde7aca87a7505670e45cf43993dd9f12d85c81e",
+    "bytes": 4098
   },
   {
     "path": "ui/SunlessUiILPatcher.cs",

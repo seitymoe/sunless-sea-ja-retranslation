@@ -1,3 +1,10 @@
+# K26.3 RC3: 発見した入港時の7つめの内部品質参照名を保護（2026-10-19）
+
+- 原作Dockの \`GetByName("a stranger")\` を実DLLで確認。原文品質Id 231のNameが日本語化されていたので、K26.3 RC3で原文の英語に復帰。
+- 保存すべき内部Nameは合計7つ（RC2比で追加1つ）。訳文の意味や数値・取引・セーブへの影響なし。
+- 原作側の \`Addressed As\` / \`Addressed as\` の大文字不一致は依然として残る。実機確認は必須。
+- 前版RC2は不要なため適用せずRC3を試験候補とする。正式安定版への昇格なし。
+
 # K26.3候補：港の内部参照名保護（2026-10-19）
 
 - 追加で3つの内部Quality.Nameを英語原文へ復元。Memoirs: Your Past / Memoirs: Quality of Lodgings / Addressed as
