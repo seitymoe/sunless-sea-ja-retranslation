@@ -1,8 +1,8 @@
 [
   {
     "path": "CHANGELOG.md",
-    "sha256": "0ed0a9c434c2cccff83dcbadd3e5f95beeb2ae91c87955116a6a5d5bf8df3d7f",
-    "bytes": 4193
+    "sha256": "739846271ce22467a4622944101d18e43e22f174b2a18db32c696222c6eb2894",
+    "bytes": 5104
   },
   {
     "path": "LICENSE-CODE.txt",
@@ -11,18 +11,18 @@
   },
   {
     "path": "README.md",
-    "sha256": "01bf505957f6107401e361692e0d0d7c34d6552fd0e13eb45b0b4373204e0a09",
-    "bytes": 3650
+    "sha256": "d5ba9784658405738bd40cc8997bea57554ae80254b60fe060844b719d1a392e",
+    "bytes": 4463
   },
   {
     "path": "README_ja.md",
-    "sha256": "f990979d68e3f38eb590d167285f68857600980284901061f31d5412ff494bc4",
-    "bytes": 7353
+    "sha256": "bcba456cba5da68b2409b0a223676b38a8c7e540d4e7bce645ccd0a27633727a",
+    "bytes": 8248
   },
   {
     "path": "RELEASE_STATUS.json",
-    "sha256": "ab5449360c50bf2e382d314d8849389c68665c116a1d1d5277a870fd3afbc893",
-    "bytes": 1203
+    "sha256": "021abb9c7982cc54a09719b0fdfb5255c90b27ecbf1a9bcf7ac53189736076f4",
+    "bytes": 2051
   },
   {
     "path": "apply_text_patch.py",

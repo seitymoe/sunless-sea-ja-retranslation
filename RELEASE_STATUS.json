@@ -34,5 +34,30 @@
     108651
   ],
   "hardcoded_Dock_quality_name_lookups_checked": 4,
-  "upstream_Addressed_As_case_mismatch_unresolved": true
+  "upstream_Addressed_As_case_mismatch_unresolved": true,
+  "owner_RC3_single_session_smoke_test": {
+    "local_date": "2026-10-19 09:00–09:06 JST",
+    "game": "Sunless Sea Steam macOS v3.0.0.31",
+    "continue_autosave_loaded": true,
+    "enter_South_Islands": true,
+    "player_log_null_reference_exceptions": 0,
+    "carrow_torpedo_buy_price": 5,
+    "carrow_torpedo_sell_price": 1,
+    "wallet_before_after_buy_sell": [
+      2171,
+      2166,
+      2167
+    ],
+    "inventory_before_after_buy_sell": [
+      0,
+      1,
+      0
+    ],
+    "immediate_update_screen_verified": true,
+    "save_sha_unchanged": true,
+    "source": "Private owner local QA receipt and 6 screenshots; not publicly distributed",
+    "coverage": "One pre-existing save, one shop item; not independent English baseline A/B",
+    "complete_regression_claim": false
+  },
+  "distribution_mode": "public_prerelease_not_stable"
 }

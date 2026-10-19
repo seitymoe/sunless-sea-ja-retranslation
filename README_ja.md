@@ -1,6 +1,6 @@
 # Sunless Sea 日本語再翻訳MOD — K26.3 RC3 導入・復元ガイド
 
-**RC3は未公開のテスト候補です。正式安定版ではありません。** [現在公開中のK26.2プレリリース](https://github.com/seitymoe/sunless-sea-ja-retranslation/releases/tag/v2026.10.19-k26.2)とは別の版です。利用前に未解決の[P0取引・ロード #1](https://github.com/seitymoe/sunless-sea-ja-retranslation/issues/1)と[P0 QEffect例外 #2](https://github.com/seitymoe/sunless-sea-ja-retranslation/issues/2)を確認してください。
+**K26.3 RC3は公開プレリリース（試験用）です。正式安定版ではありません。** 現行の未解決[P0取引・ロード #1](https://github.com/seitymoe/sunless-sea-ja-retranslation/issues/1)と[P0 QEffect例外 #2](https://github.com/seitymoe/sunless-sea-ja-retranslation/issues/2)を確認してから利用してください。既公開のK26.2から更新する場合も、まず全バックアップを作成してください。
 
 ## 1. 何を日本語化するか
 
@@ -9,6 +9,12 @@
 - 任意のMac向けUI日本語化：**529ルールで552か所**。ゲームの一部ボタン・説明・航海UI等。内部識別子を兼ねる`Stack Item`、`BUY / SELL`、通貨・価格・所持金、装備スロット、Prefab、ホットキー名は英語原文を保持します。すべてのUIが日本語になるわけではありません。
 - **現行RC3の実機確認（2026-10-19）**：所有者Macで既存AutosaveをContinueからロードし、ロンドン・キャロウ店の魚雷部品をBUY £5 / SELL £1で操作。所持金は£2171→£2166→£2167、商品数量は0→1→0と即時更新し、今回のセッションではNullReferenceException 0件。セーブ2本のSHAは前後一致しました。**これは1店舗・1商品のスモークテストに限られます。ほかの商店・海域・原本との同一セーブA/Bは未検証です。**
 
+
+### 現行RC3の実機確認と未検証範囲（2026-10-19）
+
+所有者MacのSunless Sea v3.0.0.31で、以前のAutosaveから「続ける」→入域・ロンドンの商店表示を確認しました。キャロウの魚雷部品のBUY £5、SELL £1を実際に行い、所持金£2171→£2166→£2167、数量0→1→0が各操作の約0.5秒後に表示されました。今回のPlayer.logではNullReferenceException 0件、セーブ2本のSHAは変更されていません。£999999もこの品には表示されませんでした。
+
+**これは1セーブ・1店舗・1品目だけのスモークテストです。** 全店舗・全分岐・他のQEffect・元の英語ゲームとの同一セーブA/B・全文の文学的独立校正は未検証です。BUY / SELL、通貨・価格・入力識別子は意図的に英語のままです。無検証のOSやゲーム版への適用は禁止です。
 
 ## 2. 環境と事前バックアップ
 

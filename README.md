@@ -1,10 +1,10 @@
 # Sunless Sea 非公式日本語再翻訳パッチ — K26.3 RC3
 
-**状態：公開前のレビュー候補（draft / 実機QA未完了）。正式安定版ではありません。**
+**状態：K26.3 RC3 公開プレリリース（試験用）。正式安定版ではありません。残るP0・全ゲーム検証は未完了です。**
 
 これは購入済みの *Sunless Sea* の原文ゲームデータから日本語MODを生成する、非公式・無償の日本語再翻訳パッチです。ゲーム本体、原作英語JSON一式、フルDLL、音声・画像、セーブデータは配布しません。
 
-**現在一般公開しているバージョン**は [K26.2プレリリース](https://github.com/seitymoe/sunless-sea-ja-retranslation/releases/tag/v2026.10.19-k26.2)。**K26.3 RC3はまだ公開していません。** RC3の変更内容は[PR #9](https://github.com/seitymoe/sunless-sea-ja-retranslation/pull/9)で確認できます。
+**最新の公開テスト版：K26.3 RC3** — https://github.com/seitymoe/sunless-sea-ja-retranslation/releases/tag/v2026.10.19-k26.3-rc3 。前版K26.2もhttps://github.com/seitymoe/sunless-sea-ja-retranslation/releases/tag/v2026.10.19-k26.2 から取得できます。PR #9に開発・実機テストの証拠があります。
 
 ## RC3の仕様
 
@@ -16,6 +16,12 @@
 ## 導入・復元
 
 **[詳しい日本語の導入手順](README_ja.md)** を参照してください。Python 3と、購入済みの対応ゲームが必要です。ゲームアプリ・現在のMOD・すべてのセーブデータを別の場所にバックアップしたうえで、**ゲームを完全終了してから**変更してください。元データのSHAが違う版への強制適用はしないでください。
+
+## 所有者Macの実機スモーク結果（2026-10-19）
+
+Mac Steam v3.0.0.31へRC3を適用。保存したAutosaveから「続ける」でロード、南方群島入域とロンドンの商店表示に成功。今回のPlayer.logでNullReferenceException 0件。キャロウの魚雷部品をBUY £5 / SELL £1で試験し、所持金£2171→£2166→£2167・商品数0→1→0をクリック後約0.5秒で確認。対象店で£999999の表示は発生せず、セーブSHAは変化なし。
+
+この結果は「一つのセーブと一店舗・一商品だけの成功例」です。原作英語版との同一セーブA/B、他海域のQEffect、全商店・航海・ルート・全文文学的校閲は未検証です。P0 Issue #1/#2は引き続きオープンです。
 
 ## 検証済みと未検証
 

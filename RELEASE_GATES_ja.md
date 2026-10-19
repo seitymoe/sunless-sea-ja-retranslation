@@ -1,3 +1,5 @@
+> **K26.3 RC3公開テスト版：所有者MacでContinue／ロンドンのBUY £5・SELL £1がスモーク合格。P0 #1/#2の全体回帰と同一セーブ英語原本A/Bは未完了。安定版昇格は禁止。**
+
 > **RC3の現在状態：非公開draft、差分28,073件、内部名保護計7件（通常プレイQEffect 3件＋EditorMode Dock 4件）、30件の静的テストPASS。実機A/B未完了。**
 
 # Sunless Sea JA — PM公開ゲート
