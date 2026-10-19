@@ -9,7 +9,7 @@
 ## RC3の仕様
 
 - 英語原文から日本語へ置換する**28,073フィールド**を、計**10個のJSONファイル**の差分として収録。ゲーム内の数値、ID、商店の価格、取引処理、セーブは変更しません。
-- ゲームの英語名参照を壊さないため、7つの `Quality.Name` を英語のまま保持します。通常プレイのUnity `QEffect` が参照する3件：`Almost Safe` / `Terror` / `Hull`。エディターモードの `NavigationProvider.Dock` が参照する4件：`Memoirs: Your Past` / `Memoirs: Quality of Lodgings` / `Addressed as` / `a stranger`。
+- ゲームの英語名参照を壊さないため、7つの `Quality.Name` を英語のまま保持します。通常プレイのUnity `QEffect` が参照する3件：`Almost Safe` / `Terror` / `Hull`。エディターモード（`EditorMode=true`）の `NavigationProvider.Dock` が参照する4件：`Memoirs: Your Past` / `Memoirs: Quality of Lodgings` / `Addressed as` / `a stranger`。
 - 任意の **Steam macOS版3.0.0.31向けUIパッチ**：529の限定された原文置換ルール、実DLLの552か所に対応。対応する元ゲームのSHA256が一致した場合のみ生成できます。
 - `BUY/SELL`、価格・通貨・所持数・取引処理、ホットキー・Prefab・装備スロットの内部識別子は**日本語化しません**。仕様上意図した英語表示です。
 
