@@ -1,25 +1,23 @@
 {
-  "release_tag": "v2026.10.19-k26.2",
+  "release_tag": "v2026.10.19-k26.3-rc3",
   "checked_at_utc": "2026-10-18T22:17:14.485637+00:00",
   "price_display": {
-    "status": "resolved_in_current_mac_installation",
+    "status": "owner_reported_resolved_2026-10-17_but_K26_3_not_gameplay_verified",
     "evidence_type": "maintainer_gameplay_confirmation",
     "reported_date_jst": "2026-10-17"
   },
   "installed_payload_comparison": {
-    "text_json_files": 10,
-    "ui_assembly_files": 2,
-    "all_matched": true,
-    "evidence_type": "original_release_manifest_hash_and_json_comparison"
+    "all_matched": false,
+    "reason": "Owner Mac still running earlier K25 build; K26.2 and this candidate not installed at review time"
   },
-  "runtime_equivalent_to": "v2026.10.19-k26.2",
-  "translation_changes": 28077,
+  "runtime_equivalent_to": null,
+  "translation_changes": 28073,
   "ui_rules": 529,
   "ui_display_replacements": 552,
   "full_game_and_commerce_regression": "not_completed",
   "windows_ui": "not_verified",
   "game_binary_or_font_in_archive": false,
-  "previous_public_release_tag": "v2026.10.17-k26.1",
+  "previous_public_release_tag": "v2026.10.19-k26.2",
   "owner_unity_references_checked": 6,
   "protected_QEffect_quality_ids": [
     102025,
@@ -28,5 +26,38 @@
   ],
   "runtime_causation_proven": false,
   "runtime_AB_test_completed": false,
-  "is_prerelease": true
+  "is_prerelease": true,
+  "protected_Dock_name_quality_ids": [
+    231,
+    102969,
+    108290,
+    108651
+  ],
+  "hardcoded_Dock_quality_name_lookups_checked": 4,
+  "upstream_Addressed_As_case_mismatch_unresolved": true,
+  "owner_RC3_single_session_smoke_test": {
+    "local_date": "2026-10-19 09:00–09:06 JST",
+    "game": "Sunless Sea Steam macOS v3.0.0.31",
+    "continue_autosave_loaded": true,
+    "enter_South_Islands": true,
+    "player_log_null_reference_exceptions": 0,
+    "carrow_torpedo_buy_price": 5,
+    "carrow_torpedo_sell_price": 1,
+    "wallet_before_after_buy_sell": [
+      2171,
+      2166,
+      2167
+    ],
+    "inventory_before_after_buy_sell": [
+      0,
+      1,
+      0
+    ],
+    "immediate_update_screen_verified": true,
+    "save_sha_unchanged": true,
+    "source": "Private owner local QA receipt and 6 screenshots; not publicly distributed",
+    "coverage": "One pre-existing save, one shop item; not independent English baseline A/B",
+    "complete_regression_claim": false
+  },
+  "distribution_mode": "public_prerelease_not_stable"
 }

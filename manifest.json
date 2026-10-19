@@ -1,11 +1,11 @@
 {
   "format": "sunless-sea-ja-patch-only-v1",
-  "release": "SunlessSea_Japanese_Retranslation_PatchOnly_K26_2_20261019",
+  "release": "SunlessSea_Japanese_Retranslation_PatchOnly_K26_3_RC3_candidate_20261019",
   "requires_original_english_game_files": true,
   "unofficial": true,
   "contains_original_game_binaries_or_JSON_trees": false,
   "base_game": "Steam macOS Sunless Sea from 2026-10-16",
-  "created": "2026-10-19T07:12:04.950927+09:00",
+  "created": "2026-10-19T07:47:44.239729+09:00",
   "files": {
     "encyclopaedia/Associations.json": {
       "source_sha256": "87c477d97ba906728c9466f5156e1d210b362d1ddab75c436f39676f4609f126",
@@ -57,8 +57,8 @@
     },
     "entities/qualities.json": {
       "source_sha256": "26f127b893c7a5bbab61e8898a66f41bbd45b786faa7c2f619573781d5b9ccd2",
-      "target_canonical_json_sha256": "07fdfec34f1643204cbe1eb42325fd7170eff6010ddb37d8fd04b76de9b9a1e9",
-      "changed_text_fields": 2337,
+      "target_canonical_json_sha256": "3fb9f6c9ae98784ec671246811697414fd6b7669c1f6b0b791eee36211002f43",
+      "changed_text_fields": 2333,
       "top_level_records": 957
     },
     "geography/Tiles.json": {
@@ -81,6 +81,6 @@
     "translated_managed_string_instructions": 552,
     "no_compiled_game_dll_included": true
   },
-  "changed_text_fields": 28077,
-  "runtime_equivalent_to": "v2026.10.19-k26.2"
+  "changed_text_fields": 28073,
+  "runtime_equivalent_to": null
 }

@@ -1,28 +1,38 @@
-# Sunless Sea — 非公式日本語再翻訳パッチ（K26.2 公開テスト版）
+# Sunless Sea 非公式日本語再翻訳パッチ — K26.3 RC3
 
-Sunless Seaの物語、港、航海、人物、装備、商店などを日本語化する**非公式・無償のファンパッチ**です。
+**状態：K26.3 RC3 公開プレリリース（試験用）。正式安定版ではありません。残るP0・全ゲーム検証は未完了です。**
 
-**ゲーム本体は含みません。** 購入済みのSunless Seaの英語ゲームデータに日本語差分を適用する方式です。Mac用UIも、本人が所有するゲームのオリジナルDLLから生成します。
+これは購入済みの *Sunless Sea* の原文ゲームデータから日本語MODを生成する、非公式・無償の日本語再翻訳パッチです。ゲーム本体、原作英語JSON一式、フルDLL、音声・画像、セーブデータは配布しません。
 
-**[導入方法（日本語）](README_ja.md)** ／ **[配布用ZIPはGitHub Releases](https://github.com/seitymoe/sunless-sea-ja-retranslation/releases/tag/v2026.10.19-k26.2)**
+**最新の公開テスト版：K26.3 RC3** — https://github.com/seitymoe/sunless-sea-ja-retranslation/releases/tag/v2026.10.19-k26.3-rc3 。前版K26.2もhttps://github.com/seitymoe/sunless-sea-ja-retranslation/releases/tag/v2026.10.19-k26.2 から取得できます。PR #9に開発・実機テストの証拠があります。
 
-### 内容
+## RC3の仕様
 
-- 原文に対する日本語差分28,080か所。データの構造、数値、ゲームの内部IDは変えません。
-- 任意のMac UI日本語化：529ルール、552か所の表示文字列を変更。
-- BUY/SELL、金額・所持数・取引ボタンの処理、通貨や操作系の内部識別子はオリジナルを維持。
-- 再生成テスト：10個の日本語MOD JSONと2個のUI DLLを、実際の所有ゲーム原本から照合して一致。
-- 旧版の異常な価格表示（`9999` / `999999`）は、2026年10月17日に現在のMac実機版で解消しているとの確認を受領。公開パッチの生成物と、その実機版の本文10ファイル・UI 2ファイルの一致も照合済みです。
-- **実ゲームの全分岐・全商店の取引は未検証**です。
-- K26.2は、安全海域・恐怖・船体のUnity内部参照に使われる3つの品質名を英語原文に保持します。名前以外の日本語は維持します。前のK26.1は引き続き公開テスト版です。
+- 英語原文から日本語へ置換する**28,073フィールド**を、計**10個のJSONファイル**の差分として収録。ゲーム内の数値、ID、商店の価格、取引処理、セーブは変更しません。
+- ゲームの英語名参照を壊さないため、7つの `Quality.Name` を英語のまま保持します。通常プレイのUnity `QEffect` が参照する3件：`Almost Safe` / `Terror` / `Hull`。エディターモード（`EditorMode=true`）の `NavigationProvider.Dock` が参照する4件：`Memoirs: Your Past` / `Memoirs: Quality of Lodgings` / `Addressed as` / `a stranger`。
+- 任意の **Steam macOS版3.0.0.31向けUIパッチ**：529の限定された原文置換ルール、実DLLの552か所に対応。対応する元ゲームのSHA256が一致した場合のみ生成できます。
+- `BUY/SELL`、価格・通貨・所持数・取引処理、ホットキー・Prefab・装備スロットの内部識別子は**日本語化しません**。仕様上意図した英語表示です。
 
-### 利用前に
+## 導入・復元
 
-ゲーム、すべてのセーブファイル、既存MODをバックアップしてください。原文JSONやDLLのSHAが合わないゲームバージョンには適用しないでください。Windows版UIパッチは未検証です。
+**[詳しい日本語の導入手順](README_ja.md)** を参照してください。Python 3と、購入済みの対応ゲームが必要です。ゲームアプリ・現在のMOD・すべてのセーブデータを別の場所にバックアップしたうえで、**ゲームを完全終了してから**変更してください。元データのSHAが違う版への強制適用はしないでください。
 
-**Sunless Sea / Fallen London は © / ™ Failbetter Games Limited。非公式ファン制作であり、公式による承認・後援を受けていません。** このパッチは無償です。原作・翻訳された原作テキスト等の権利は各権利者に留保されます。MITライセンスはこのリポジトリに含まれる独自の変換**プログラムのコードだけ**に適用されます。
+## 所有者Macの実機スモーク結果（2026-10-19）
 
-ファン作品に関する公式ガイドライン: https://www.failbettergames.com/fan-project-guidelines
+Mac Steam v3.0.0.31へRC3を適用。保存したAutosaveから「続ける」でロード、南方群島入域とロンドンの商店表示に成功。今回のPlayer.logでNullReferenceException 0件。キャロウの魚雷部品をBUY £5 / SELL £1で試験し、所持金£2171→£2166→£2167・商品数0→1→0をクリック後約0.5秒で確認。対象店で£999999の表示は発生せず、セーブSHAは変化なし。
 
-### K26.2 の参照名安全性修正（2026-10-19）
-SafeZoneの `Almost Safe`、危険海域の `Terror`、`Hull` がUnity内で英語名参照されると確認したため、品質ID 111067 / 102025 / 102029 の`Name`翻訳を保護しました。現在のゲームはプレイ中のため実機A/Bは未実施。静的な参照照合だけでバグ修復完了とは判断していません。
+この結果は「一つのセーブと一店舗・一商品だけの成功例」です。原作英語版との同一セーブA/B、他海域のQEffect、全商店・航海・ルート・全文文学的校閲は未検証です。P0 Issue #1/#2は引き続きオープンです。
+
+## 検証済みと未検証
+
+**PASS：** ZIPチェックサム、英語原本からの日本語10 JSON再生成とSHA比較、ID/数値/文字列マクロの静的テスト、30件の自動回帰テスト、CI。
+
+**未完了：** 同じセーブコピーでのQEffect例外の原因切り分け、全商店のBUY/SELLと即時残高更新、Continue/Load/Saveの操作、全ルートの文学的校閲、Windows版UIの動作検証。RC3を「実機ですべて修復済み」とは表現しません。
+
+[P0取引・ロード #1](https://github.com/seitymoe/sunless-sea-ja-retranslation/issues/1) · [P0 QEffect例外 #2](https://github.com/seitymoe/sunless-sea-ja-retranslation/issues/2) · [日本語校正 #3](https://github.com/seitymoe/sunless-sea-ja-retranslation/issues/3) · [他OSの互換性 #4](https://github.com/seitymoe/sunless-sea-ja-retranslation/issues/4)
+
+## 著作権とライセンス
+
+Sunless Sea / Fallen Londonは © / ™ Failbetter Games Limited。本パッチは同社の公式・承認作品ではありません。独自の変換**プログラム**に限りMITライセンスを適用し、原作や二次的著作物を勝手に再ライセンスしません。
+
+[公式ゲーム](https://www.failbettergames.com/games/sunless-sea) · [公式ファン作品ガイドライン](https://www.failbettergames.com/fan-project-guidelines)
