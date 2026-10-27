@@ -3,13 +3,13 @@
 Does not edit the game or saves; output directory must not yet exist.
 """
 from pathlib import Path
-import json,hashlib,argparse,shutil,sys
+import json,hashlib,argparse,shutil,sys,os
 def digest(data):return hashlib.sha256(data).hexdigest()
 def fail(reason):raise RuntimeError(reason)
 
 def checked_relative_json(name):
  """Reject path traversal, absolute paths, and platform-specific separators."""
- if not isinstance(name,str) or '\\' in name or '\x00' in name:
+ if not isinstance(name,str) or '\\' in name or '\x00' in name or ':' in name:
   fail('Unsafe manifest file path')
  parts=name.split('/')
  if (len(parts)<2 or parts[0] not in ('entities','encyclopaedia','geography')
@@ -40,13 +40,21 @@ def main():
  if dest.exists():fail('Output exists; refusing to overwrite: '+str(dest))
  if dest==original or original in dest.parents or dest in original.parents:
   fail('Output may not be inside or contain the game original data root')
- # Even if --game-data is a separate English copy, do not build into a live
- # Mac Steam app, active addon, game settings, or saves.
- for live in (
+ # Even if --game-data is a separate English copy, do not write into a
+ # live installation. On Windows Unity stores saves/addons under LocalLow,
+ # not LOCALAPPDATA (which normally points to the sibling "Local" folder).
+ # These guards do NOT imply Windows UI or game-version compatibility.
+ protected_roots=[
    Path.home()/'Library/Application Support/com.failbettergames.sunlesssea',
    Path.home()/'Library/Application Support/Steam/steamapps/common/SunlessSea/Sunless Sea.app',
- ):
-  protected=live.resolve()
+   Path.home()/'AppData/LocalLow/Failbetter Games/Sunless Sea',
+ ]
+ if os.environ.get('USERPROFILE'):
+  protected_roots.append(Path(os.environ['USERPROFILE'])/'AppData/LocalLow/Failbetter Games/Sunless Sea')
+ if os.environ.get('LOCALAPPDATA'):
+  protected_roots.append(Path(os.environ['LOCALAPPDATA']).parent/'LocalLow/Failbetter Games/Sunless Sea')
+ for live in protected_roots:
+  protected=live.expanduser().resolve()
   if dest==protected or protected in dest.parents:
    fail('Output may not be inside the live Sunless Sea installation')
  delta_root=(root/'delta').resolve()
