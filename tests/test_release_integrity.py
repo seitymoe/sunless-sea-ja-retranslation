@@ -1,6 +1,7 @@
 """Offline CI regression checks for the release; no proprietary game assets needed."""
 import collections
 import hashlib
+import importlib.util
 import json
 import os
 import re
@@ -8,6 +9,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest import mock
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -300,6 +302,39 @@ class InstallerFailClosedTests(unittest.TestCase):
             self.assertNotEqual(x.returncode, 0)
             self.assertIn("live Sunless Sea installation", x.stderr)
             self.assertFalse(live.exists())
+
+
+    def test_partial_write_error_cleans_staging_without_touching_original(self):
+        """A failed output write must leave no plausible partial Japanese MOD."""
+        with tempfile.TemporaryDirectory() as p:
+            base, rel, original, _ = self.fixture(Path(p))
+            out = Path(p) / "stage"
+            original_path = base / "entities/exchanges.json"
+            before = original_path.read_bytes()
+            spec = importlib.util.spec_from_file_location(
+                "sunless_synthetic_builder", rel / "apply_text_patch.py")
+            builder = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(builder)
+            write_bytes = Path.write_bytes
+            output_json = out / "japanese_translation/entities/exchanges.json"
+
+            def interrupted_write(file_path, data):
+                if file_path == output_json:
+                    # Simulate a disk failure *after* a partial stage file exists.
+                    write_bytes(file_path, data[:7])
+                    raise OSError("simulated write failure")
+                return write_bytes(file_path, data)
+
+            argv = [str(rel / "apply_text_patch.py"),
+                    "--game-data", str(base), "--output", str(out),
+                    "--manifest", str(rel / "manifest.json")]
+            with mock.patch.object(sys, "argv", argv), \
+                    mock.patch.object(Path, "write_bytes", interrupted_write):
+                with self.assertRaisesRegex(OSError, "simulated write failure"):
+                    builder.main()
+            self.assertFalse(out.exists(), "Partial output must be removed on failure")
+            self.assertEqual(original_path.read_bytes(), before,
+                             "Original game data must not be modified")
 
 if __name__ == "__main__":
     unittest.main()
