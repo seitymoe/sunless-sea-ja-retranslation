@@ -245,5 +245,61 @@ class InstallerFailClosedTests(unittest.TestCase):
             self.assertIn("Output cannot be a symlink", x.stderr)
             self.assertFalse((Path(p) / "real-stage").exists())
 
+
+    def test_manifest_windows_ads_separator_is_rejected(self):
+        # Colon is a stream separator on Windows (e.g. filename:stream).
+        with tempfile.TemporaryDirectory() as p:
+            base, rel, _, _ = self.fixture(Path(p))
+            manifest_file = rel / "manifest.json"
+            m = json.loads(manifest_file.read_text())
+            m["files"]["entities/exchanges.json:metadata.json"] = m["files"].pop("entities/exchanges.json")
+            manifest_file.write_text(json.dumps(m))
+            out = Path(p) / "out"
+            x = self.run_installer(base, rel, out)
+            self.assertNotEqual(x.returncode, 0)
+            self.assertIn("Unsafe manifest", x.stderr)
+            self.assertFalse(out.exists())
+
+    def test_windows_default_locallow_live_addon_is_rejected(self):
+        # Fake Windows home works on Linux CI; no actual game data is opened.
+        with tempfile.TemporaryDirectory() as p:
+            root = Path(p)
+            base, rel, _, _ = self.fixture(root)
+            profile = root / "fake_windows_profile"
+            profile.mkdir()
+            live = profile / "AppData/LocalLow/Failbetter Games/Sunless Sea/addon/japanese_translation"
+            env = os.environ.copy()
+            env["HOME"] = str(profile)
+            env["USERPROFILE"] = str(profile)
+            env.pop("LOCALAPPDATA", None)
+            x = subprocess.run(
+                [sys.executable, str(rel / "apply_text_patch.py"),
+                 "--game-data", str(base), "--output", str(live)],
+                capture_output=True, text=True, timeout=20, env=env)
+            self.assertNotEqual(x.returncode, 0)
+            self.assertIn("live Sunless Sea installation", x.stderr)
+            self.assertFalse(live.exists())
+
+    def test_windows_relocated_localappdata_live_addon_is_rejected(self):
+        # If LOCALAPPDATA points outside USERPROFILE, protect its LocalLow sibling.
+        with tempfile.TemporaryDirectory() as p:
+            root = Path(p)
+            base, rel, _, _ = self.fixture(root)
+            profile = root / "fake_home"
+            profile.mkdir()
+            localappdata = root / "relocated_app_data/Local"
+            live = localappdata.parent / "LocalLow/Failbetter Games/Sunless Sea/addon/japanese_translation"
+            env = os.environ.copy()
+            env["HOME"] = str(profile)
+            env["USERPROFILE"] = str(profile)
+            env["LOCALAPPDATA"] = str(localappdata)
+            x = subprocess.run(
+                [sys.executable, str(rel / "apply_text_patch.py"),
+                 "--game-data", str(base), "--output", str(live)],
+                capture_output=True, text=True, timeout=20, env=env)
+            self.assertNotEqual(x.returncode, 0)
+            self.assertIn("live Sunless Sea installation", x.stderr)
+            self.assertFalse(live.exists())
+
 if __name__ == "__main__":
     unittest.main()
