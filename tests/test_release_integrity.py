@@ -336,5 +336,33 @@ class InstallerFailClosedTests(unittest.TestCase):
             self.assertEqual(original_path.read_bytes(), before,
                              "Original game data must not be modified")
 
+
+    def test_case_insensitive_manifest_collision_is_rejected(self):
+        # Windows and some macOS volumes alias names differing only by case.
+        with tempfile.TemporaryDirectory() as p:
+            base, rel, _, _ = self.fixture(Path(p))
+            manifest_file = rel / "manifest.json"
+            m = json.loads(manifest_file.read_text())
+            m["files"]["entities/EXCHANGES.json"] = dict(m["files"]["entities/exchanges.json"])
+            manifest_file.write_text(json.dumps(m))
+            out = Path(p) / "out"
+            x = self.run_installer(base, rel, out)
+            self.assertNotEqual(x.returncode, 0)
+            self.assertIn("Case-insensitive manifest path collision", x.stderr)
+            self.assertFalse(out.exists())
+
+    def test_windows_reserved_device_filename_is_rejected(self):
+        with tempfile.TemporaryDirectory() as p:
+            base, rel, _, _ = self.fixture(Path(p))
+            manifest_file = rel / "manifest.json"
+            m = json.loads(manifest_file.read_text())
+            m["files"]["entities/CON.json"] = m["files"].pop("entities/exchanges.json")
+            manifest_file.write_text(json.dumps(m))
+            out = Path(p) / "out"
+            x = self.run_installer(base, rel, out)
+            self.assertNotEqual(x.returncode, 0)
+            self.assertIn("Unsafe manifest file path", x.stderr)
+            self.assertFalse(out.exists())
+
 if __name__ == "__main__":
     unittest.main()

@@ -15,6 +15,10 @@ def checked_relative_json(name):
  if (len(parts)<2 or parts[0] not in ('entities','encyclopaedia','geography')
      or any(part in ('','.','..') for part in parts) or not name.endswith('.json')):
   fail('Unsafe manifest file path: '+repr(name))
+ # Win32 device names remain reserved even with a .json suffix.
+ devices={'CON','PRN','AUX','NUL'}|{'COM'+str(i) for i in range(1,10)}|{'LPT'+str(i) for i in range(1,10)}
+ if any(part.split('.',1)[0].upper() in devices for part in parts):
+  fail('Unsafe manifest file path: '+repr(name))
  return Path(*parts)
 
 def checked_child(root,path,description):
@@ -59,9 +63,12 @@ def main():
    fail('Output may not be inside the live Sunless Sea installation')
  delta_root=(root/'delta').resolve()
  if root not in delta_root.parents:fail('Patch source directory escapes release')
+ checked_names=[checked_relative_json(rel) for rel in manifest['files']]
+ # Case-only spellings name the same output on Windows and some macOS volumes.
+ if len({p.as_posix().casefold() for p in checked_names})!=len(checked_names):
+  fail('Case-insensitive manifest path collision')
  validated=[]
- for rel,record in manifest['files'].items():
-  relative=checked_relative_json(rel)
+ for (rel,record),relative in zip(manifest['files'].items(),checked_names):
   src=checked_child(original,original/relative,'Original game JSON')
   patch_file=checked_child(delta_root,delta_root/relative,'Patch JSON')
   if not src.is_file():fail('Missing original game data: '+str(src))
