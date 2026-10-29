@@ -364,5 +364,77 @@ class InstallerFailClosedTests(unittest.TestCase):
             self.assertIn("Unsafe manifest file path", x.stderr)
             self.assertFalse(out.exists())
 
+
+    def test_win32_invalid_character_or_control_is_rejected(self):
+        # Linux allows names which fail or alias under Windows Win32 paths.
+        for bad in ('bad?.json', 'bad*.json', 'bad|.json',
+                    'bad<.json', 'bad".json', 'bad'+chr(31)+'.json'):
+            with self.subTest(bad=repr(bad)), tempfile.TemporaryDirectory() as p:
+                base, rel, _, _ = self.fixture(Path(p))
+                manifest_file = rel / "manifest.json"
+                m = json.loads(manifest_file.read_text())
+                m["files"]["entities/"+bad] = m["files"].pop("entities/exchanges.json")
+                manifest_file.write_text(json.dumps(m))
+                out = Path(p) / "out"
+                proc = self.run_installer(base, rel, out)
+                self.assertNotEqual(proc.returncode, 0)
+                self.assertIn("Unsafe manifest file path", proc.stderr)
+                self.assertFalse(out.exists())
+
+    def test_win32_trailing_dot_or_space_component_is_rejected(self):
+        for subdir in ("sub.", "sub "):
+            with self.subTest(subdir=subdir), tempfile.TemporaryDirectory() as p:
+                base, rel, _, _ = self.fixture(Path(p))
+                manifest_file = rel / "manifest.json"
+                m = json.loads(manifest_file.read_text())
+                m["files"]["entities/"+subdir+"/exchanges.json"] = m["files"].pop("entities/exchanges.json")
+                manifest_file.write_text(json.dumps(m))
+                out = Path(p) / "out"
+                proc = self.run_installer(base, rel, out)
+                self.assertNotEqual(proc.returncode, 0)
+                self.assertIn("Unsafe manifest file path", proc.stderr)
+                self.assertFalse(out.exists())
+
+    def test_win32_superscript_device_filename_is_rejected(self):
+        for reserved in ("COM\\u00b9", "LPT\\u00b2", "COM\\u00b3"):
+            with self.subTest(reserved=reserved), tempfile.TemporaryDirectory() as p:
+                base, rel, _, _ = self.fixture(Path(p))
+                manifest_file = rel / "manifest.json"
+                m = json.loads(manifest_file.read_text())
+                m["files"]["entities/"+reserved+".json"] = m["files"].pop("entities/exchanges.json")
+                manifest_file.write_text(json.dumps(m))
+                out = Path(p) / "out"
+                proc = self.run_installer(base, rel, out)
+                self.assertNotEqual(proc.returncode, 0)
+                self.assertIn("Unsafe manifest file path", proc.stderr)
+                self.assertFalse(out.exists())
+
+    def test_case_only_mac_live_directory_alias_is_rejected(self):
+        # Conservative refusal even on a Linux runner with a case-sensitive FS.
+        with tempfile.TemporaryDirectory() as p:
+            root = Path(p)
+            home = root / "fake_home"
+            home.mkdir()
+            base, rel, _, _ = self.fixture(root)
+            live = home / "Library/Application Support/COM.FailbetterGames.SunlessSea/addon/japanese_translation"
+            env = os.environ.copy()
+            env["HOME"] = str(home)
+            proc = subprocess.run(
+                [sys.executable, str(rel / "apply_text_patch.py"),
+                 "--game-data", str(base), "--output", str(live)],
+                capture_output=True, text=True, timeout=20, env=env)
+            self.assertNotEqual(proc.returncode, 0)
+            self.assertIn("live Sunless Sea installation", proc.stderr)
+            self.assertFalse(live.exists())
+
+    def test_case_only_original_directory_alias_is_rejected(self):
+        with tempfile.TemporaryDirectory() as p:
+            base, rel, _, _ = self.fixture(Path(p))
+            aliased = Path(p) / "ORIGINAL/addon"
+            proc = self.run_installer(base, rel, aliased)
+            self.assertNotEqual(proc.returncode, 0)
+            self.assertIn("Output may not be inside", proc.stderr)
+            self.assertFalse(aliased.exists())
+
 if __name__ == "__main__":
     unittest.main()
