@@ -26,8 +26,8 @@
   },
   {
     "path": "apply_text_patch.py",
-    "sha256": "a107e7b1dfd55881c9f7debff8a855c8584e15a83f2089fe2863159ef88a6806",
-    "bytes": 6074
+    "sha256": "07a50d9fafcb383639d1186e5867e90cf0f71e85e7e0ad293519427e827d1221",
+    "bytes": 6559
   },
   {
     "path": "build_ui_patch.py",
