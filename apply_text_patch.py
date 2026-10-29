@@ -9,14 +9,18 @@ def fail(reason):raise RuntimeError(reason)
 
 def checked_relative_json(name):
  """Reject path traversal, absolute paths, and platform-specific separators."""
- if not isinstance(name,str) or '\\' in name or '\x00' in name or ':' in name:
+ if not isinstance(name,str) or any(ord(ch)<32 or ch in '\\:*?"<>|' for ch in name):
   fail('Unsafe manifest file path')
  parts=name.split('/')
  if (len(parts)<2 or parts[0] not in ('entities','encyclopaedia','geography')
-     or any(part in ('','.','..') for part in parts) or not name.endswith('.json')):
+     or any(part in ('','.','..') or part.rstrip(' .')!=part for part in parts)
+     or not name.endswith('.json')):
   fail('Unsafe manifest file path: '+repr(name))
  # Win32 device names remain reserved even with a .json suffix.
  devices={'CON','PRN','AUX','NUL'}|{'COM'+str(i) for i in range(1,10)}|{'LPT'+str(i) for i in range(1,10)}
+ # Win32 also treats superscript digits 1, 2 and 3 as COM/LPT device digits.
+ devices|={'COM'+d for d in '\u00b9\u00b2\u00b3'}
+ devices|={'LPT'+d for d in '\u00b9\u00b2\u00b3'}
  if any(part.split('.',1)[0].upper() in devices for part in parts):
   fail('Unsafe manifest file path: '+repr(name))
  return Path(*parts)
@@ -26,6 +30,13 @@ def checked_child(root,path,description):
  if root not in path.resolve().parents:
   fail(description+' escapes allowed directory')
  return path
+
+def is_same_or_child(path,parent):
+ """Conservatively guard case-insensitive Windows/macOS directory aliases."""
+ path_parts=path.parts
+ parent_parts=parent.parts
+ return len(path_parts)>=len(parent_parts) and all(
+  a.casefold()==b.casefold() for a,b in zip(path_parts,parent_parts))
 
 def main():
  ap=argparse.ArgumentParser()
@@ -42,7 +53,7 @@ def main():
  if args.output.expanduser().is_symlink():fail('Output cannot be a symlink')
  dest=args.output.expanduser().resolve()
  if dest.exists():fail('Output exists; refusing to overwrite: '+str(dest))
- if dest==original or original in dest.parents or dest in original.parents:
+ if is_same_or_child(dest,original) or is_same_or_child(original,dest):
   fail('Output may not be inside or contain the game original data root')
  # Even if --game-data is a separate English copy, do not write into a
  # live installation. On Windows Unity stores saves/addons under LocalLow,
@@ -59,7 +70,7 @@ def main():
   protected_roots.append(Path(os.environ['LOCALAPPDATA']).parent/'LocalLow/Failbetter Games/Sunless Sea')
  for live in protected_roots:
   protected=live.expanduser().resolve()
-  if dest==protected or protected in dest.parents:
+  if is_same_or_child(dest,protected):
    fail('Output may not be inside the live Sunless Sea installation')
  delta_root=(root/'delta').resolve()
  if root not in delta_root.parents:fail('Patch source directory escapes release')
